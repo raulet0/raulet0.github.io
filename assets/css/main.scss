@@ -5,7 +5,7 @@ search: false
 
 @charset "utf-8";
 
-$link-color: #4242e9;
+$link-color: $primary-color !default;
 
 a {
   text-decoration: none;
