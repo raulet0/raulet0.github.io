@@ -1,12 +1,12 @@
 ---
 layout: single
-toc: true
 title: Réseau
 permalink: /reseau/
 header:
     image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
+toc: true
 author_profile: true
 ---
 

@@ -2,6 +2,11 @@
 layout: single
 title: Règles
 permalink: /reglement/
+header:
+    image: /assets/images/headerimage.jpeg
+    image_description: "G1000"
+    caption: "Photo Rauletus"
+toc: true
 ---
 
 Règlement standard de la ligne _zéro_  
