@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: single
+class: wide
 header:
     image: /assets/images/headerimage.jpeg
     image_description: "G1000"
