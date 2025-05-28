@@ -5,14 +5,14 @@ search: false
 
 @charset "utf-8";
 
-$link-color: $primary-color !default;
-
 a {
   text-decoration: none;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+$link-color: $primary-color;
 
 .masthead {
   position: sticky;
