@@ -7,6 +7,7 @@ header:
     image: /assets/images/headerimage.jpeg
     image_description: "MRA description of the image"
     caption: "Photo MRA"
+author_profile: true
 ---
 
 Un réseau pour la simulation : "la ligne _Zéro_"
