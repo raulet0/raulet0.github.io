@@ -1,7 +1,12 @@
 ---
-layout: page
+layout: single
 title: Simulation
 permalink: /operations/
+header:
+    image: /assets/images/headerimage.jpeg
+    image_description: "G1000"
+    caption: "Photo Rauletus"
+toc: true
 ---
 
 ## Présentation

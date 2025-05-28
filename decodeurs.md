@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Montage des decodeurs DCC
 permalink: /decodeurs/
 ---
