@@ -5,7 +5,7 @@ search: false
 
 @charset "utf-8";
 
-$link-color: red;
+$link-color: #ff0000;
 
 a {
   text-decoration: none;
@@ -17,4 +17,5 @@ a {
 .masthead {
   position: sticky;
   top: 0;
+  background-color: white;
 }
