@@ -1,7 +1,12 @@
 ---
-layout: wide
+layout: single
+toc: true
 title: Réseau
 permalink: /reseau/
+header:
+    image: /assets/images/headerimage.jpeg
+    image_description: "MRA description of the image"
+    caption: "Photo MRA"
 ---
 
 Un réseau pour la simulation : "la ligne _Zéro_"
