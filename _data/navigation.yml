@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "A propos"
-    url: /about/
+  - title: "Welcome"
+    url: /welcome/
+  - title: "Simulation"
+    url: /operations/
+  - title: "Règles"
+    url: /reglement/
+  - title: "Réseau"
+    url: /reseau/
+  - title: "Photos"
+    url: /photos/

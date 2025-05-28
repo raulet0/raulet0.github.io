@@ -5,8 +5,8 @@ title: Réseau
 permalink: /reseau/
 header:
     image: /assets/images/headerimage.jpeg
-    image_description: "MRA description of the image"
-    caption: "Photo MRA"
+    image_description: "G1000"
+    caption: "Photo Rauletus"
 author_profile: true
 ---
 
