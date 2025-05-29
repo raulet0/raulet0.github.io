@@ -5,9 +5,9 @@ main:
     url: /operations/
   - title: "Jeu"
     url: /reglement/
-  - title: "Réseau"
+  - title: "Réseaux"
     url: /reseau/
-  - title: "Technologie"
+  - title: "Technologies"
     url: /techno/
   - title: "Photos"
     url: /photos/
