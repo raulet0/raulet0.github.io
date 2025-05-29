@@ -7,5 +7,7 @@ main:
     url: /reglement/
   - title: "Réseau"
     url: /reseau/
+  - title: "Technologie"
+    url: /techno/
   - title: "Photos"
     url: /photos/
