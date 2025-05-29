@@ -8,12 +8,11 @@ header:
     image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
+title: "Modélisme ferroviaire et simulation"
 ---
 
 Modifié le 28/05/2025 - Copyright © 1998-2025 MRA
 
-Modélisme ferroviaire et simulation
-===================================
 
 Ce site se consacre aux règles, méthodes et outils papiers ou informatiques pour l'exploitation ludique d'un réseau ferroviaire miniature.
 Consultez ces pages qui exposent quelques idées sur un concept de jeu interactif avec un réseau ferroviaire miniature.
