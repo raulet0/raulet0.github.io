@@ -7,7 +7,7 @@ header:
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
-author_profile: true
+author_profile: false
 ---
 
 Un réseau pour la simulation : "la ligne _Zéro_"

@@ -3,7 +3,7 @@ main:
     url: /welcome/
   - title: "Simulation"
     url: /operations/
-  - title: "Règles"
+  - title: "Jeu"
     url: /reglement/
   - title: "Réseau"
     url: /reseau/
