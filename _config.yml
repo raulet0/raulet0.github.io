@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: La ligne ZERO | UN
-subtitle: "Le Train de Rauletus"
+subtitle: "La ligne ZERO | UN"
+title: "Le Train de Rauletus"
 logo: /images/logo6.png
 email:
 description: >- # this means to ignore newlines until "baseurl:"

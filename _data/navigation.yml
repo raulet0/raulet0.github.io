@@ -1,5 +1,5 @@
 main:
-  - title: "Présentation"
+  - title: "Intro"
     url: /intro/
   - title: "Simulation"
     url: /operations/
@@ -7,7 +7,7 @@ main:
     url: /reglement/
   - title: "Réseaux"
     url: /reseau/
-  - title: "Technologies"
+  - title: "Technos"
     url: /techno/
   - title: "Médias"
     url: /photos/
