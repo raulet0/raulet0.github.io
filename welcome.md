@@ -1,5 +1,6 @@
 ---
-title: Welcome!
+layout: single
+title: Welcome
 permalink: /welcome/
 author_profile: true
 ---

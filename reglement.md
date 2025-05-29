@@ -7,6 +7,7 @@ header:
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
+author_profile: false
 ---
 
 Règlement standard de la ligne _zéro_  

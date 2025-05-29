@@ -4,11 +4,12 @@
 
 layout: single
 classes: wide
+title: "Modélisme ferroviaire et simulation"
 header:
     image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
-title: "Modélisme ferroviaire et simulation"
+author_profile: false
 ---
 
 Modifié le 28/05/2025 - Copyright © 1998-2025 MRA

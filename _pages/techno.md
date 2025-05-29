@@ -1,8 +1,13 @@
 ---
 layout: single
-permalink: /techno/
 title: "Technologie"
+permalink: /techno/
+header:
+    image: /assets/images/headerimage.jpeg
+    image_description: "G1000"
+    caption: "Photo Rauletus"
 toc: true
+author_profile: false
 ---
 
 Software
