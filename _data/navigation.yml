@@ -1,6 +1,6 @@
 main:
-  - title: "Welcome"
-    url: /welcome/
+  - title: "Présentation"
+    url: /intro/
   - title: "Simulation"
     url: /operations/
   - title: "Jeu"
@@ -9,5 +9,7 @@ main:
     url: /reseau/
   - title: "Technologies"
     url: /techno/
-  - title: "Photos"
+  - title: "Médias"
     url: /photos/
+  - title: "Contact"
+    url: /welcome/
