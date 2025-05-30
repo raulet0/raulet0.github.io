@@ -6,13 +6,28 @@ header:
     image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
-toc: true
+toc: false
 author_profile: false
 ---
 
-De quoi parle t-on ici ?
+Vous avez toujours été fasciné par les simulations, et plus particulièrement par le monde captivant des réseaux de trains miniatures ? Vous êtes au bon endroit !
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+J'ai toujours été passionné par les simulations réelles, et plus particulièrement par le monde fascinant des réseaux de trains modèles. Pour moi, c'est avant tout un plaisir, un terrain de jeu où je peux concrétiser mes idées. C'est pourquoi, dès 1998, j'ai commencé à construire un premier réseau pour mettre en pratique ces concepts. Plus récemment, un autre projet est en cours de développement, me permettant de tester de nouvelles solutions et d'approfondir mes connaissances. Mon inspiration est venue très tôt des modélistes d'autres pays, là où cette activité est poussée à son maximum, offrant des simulations incroyablement abouties.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## La technologie au service du réalisme
+Les avancées constantes de la technologie digitale DCC transforment nos opérations ferroviaires miniatures, les rendant toujours plus réalistes. Imaginez : des trains qui filent à toute vitesse ou qui effectuent des ralentis extrêmes avec une précision incroyable, des lumières LED qui illuminent bâtiments et ouvrages d'art, des fumigènes pour une immersion totale, et même la reproduction des sons réels directement dans les locomotives, les wagons de voyageurs et les objets miniatures. C'est tout un univers qui prend vie sous nos yeux !
+L'intégration de l'informatique, des capteurs intelligents et de l'Internet des Objets (IoT) dans le modélisme ferroviaire ouvre une nouvelle dimension d'interaction avec nos trains. Les utilisateurs peuvent désormais surveiller en temps réel la performance de leurs modèles, ajuster les paramètres de fonctionnement et même intégrer des scénarios automatisés. Votre réseau n'est plus statique, il réagit à vos commandes et à l'environnement !
+
+## Mon projet : Le jeu grandeur nature sur rails miniatures
+Mon objectif est de créer une activité de jeu moderne, amusante et entièrement digitale, accessible aux petits comme aux grands, autour d'un réseau ferroviaire miniature réel. Que votre réseau soit petit ou vaste, en boucle ou en ligne, mon jeu s'adapte à de multiples configurations existantes.
+Le principe ? Les joueurs pilotent leur train à l'aide de leur smartphone, aux commandes d'une locomotive sonorisée. Ils doivent dérouler un scénario choisi parmi plusieurs, qui les invite à opérer une locomotive et ses wagons sur le réseau. L'objectif est de livrer et/ou récupérer des wagons aux différents lieux de livraison prévus (les "entreprises"), en respectant les horaires (passage en gare pour les trains de voyageurs ou dans les entreprises pour les trains de marchandises). Il faut également respecter les règles de conduite ferroviaire : signaux, vitesses maximales, avertissements sonores, ravitaillement des locomotives, etc.
+En parallèle, le logiciel de jeu simule en accéléré le déroulement d'une grille horaire inspirée de la réalité. Il surveille toutes les actions des joueurs et affiche un rapport détaillé au fur et à mesure. Une session de jeu peut durer de 15 minutes à 2 heures, ce qui simule 24 heures réelles. Prêt à devenir un véritable chef de gare ?
+
+## Un pont entre deux mondes : réel et virtuel
+Ce projet a pour ambition de relier le monde des jeux virtuels et celui des réseaux modèles physiques. Aujourd'hui, ces deux univers sont encore cloisonnés. D'un côté, nous avons les modélistes qui font rouler leurs trains sur un réseau, souvent en mode automatique ou manuel, sans aller au-delà de l'observation. De l'autre, les "gamers" se plongent dans des simulateurs 3D de trains entièrement virtuels sur PC et consoles, allant même jusqu'à des reproductions physiques de cabines de locomotives.
+Ma proposition crée une jonction inédite en associant un réseau miniature réel et connecté à un jeu de simulation digital. C'est une synergie unique qui combine le plaisir de la manipulation physique avec la richesse et l'interactivité d'un jeu vidéo. Vous ne vous contentez plus d'observer : vous agissez, vous décidez, vous vivez l'expérience ferroviaire comme jamais auparavant.
+
+Alors, êtes-vous prêt à monter à bord de cette nouvelle aventure ?
+
+C'est parti.
 

@@ -5,10 +5,7 @@ permalink: /welcome/
 author_profile: true
 ---
 
-MODELISME FERROVIAIRE ET SIMULATION
-
-
-Je suis passionné par l'exploitation des réseaux de trains modèles, surtout d'un point de vue ludique. Ces quelques pages tentent d'expliquer mon point de vue. Dès 1998, j'ai commencé à construire un premier [réseau](/reseau) pour me permettre de mettre en pratique les idées exposées ici. Puis un autre plus récemment. Cela m'a permis de valider plusieurs solutions et de progresser sur ce sujet.
+Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
 
 Je peux vous aider...
 
