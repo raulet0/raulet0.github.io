@@ -3,8 +3,6 @@
 @charset "UTF-8";
 
 $link-color: #0092ca;
-// $type-size-4: 1em;          // ~16px
-// $type-size-5: 0.875em;      // 14px/16=0.875em
 
 a {
   text-decoration: none;
@@ -19,6 +17,6 @@ a {
   background-color: $background-color;
 }
 
-.page__content p,li,dl {
+.page__content p, .page__content li, .page__content dl {
   font-size: 0.875em;
 }
