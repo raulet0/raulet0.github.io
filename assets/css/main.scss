@@ -10,10 +10,6 @@ a {
   text-decoration: none;
 }
 
-.page__content p,li,dl {
-  font-size: 0.875em;
-}
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -21,4 +17,8 @@ a {
   position: sticky;
   top: 0;
   background-color: $background-color;
+}
+
+.page__content p,li,dl {
+  font-size: 0.875em;
 }
