@@ -4,14 +4,6 @@
 
 $link-color: #0092ca;
 
-a {
-  text-decoration: none;
-}
-
-html {
-    font-size: 14px;
-}
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -19,6 +11,14 @@ html {
   position: sticky;
   top: 0;
   background-color: $background-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+    font-size: 14px;
 }
 
 // .page__content p, .page__content li, .page__content dl {
