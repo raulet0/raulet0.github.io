@@ -1,15 +1,15 @@
 ---
 layout: single
-title: "Présentation"
+title: "MODELISME FERROVIAIRE ET SIMULATION"
 permalink: /intro/
-excerpt: "MODELISME FERROVIAIRE ET SIMULATION"
+excerpt: "Un concept de jeu digital sur rails miniatures"
 header:
     overlay_image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: false
 author_profile: false
-show_date: true
+show_date: false
 read_time: true
 last_modified_at: 2025-06-01T15:00:00+02:00
 ---
