@@ -39,6 +39,17 @@ a {
     }
 }
 
+.toc__menu {
+    font-size: 1em // .75em
+}
+
+@media (min-width: 64em) {
+    .toc__menu {
+        font-size: 1em //.6875em
+    }
+}
+
+
 // .page__content p, .page__content li, .page__content dl {
 //   font-size: 0.875em; /* 14px/16=0.875em */
 // }
