@@ -8,6 +8,13 @@ header:
     caption: "Photo Rauletus"
 toc: true
 author_profile: false
+sidebar:
+  - title: "Ligne 0"
+    image: /images/logo6.png
+    image_alt: "logo"
+    text: "Un réseau pour la simulation"
+  - title: "Ligne 1"
+    text: "Une extension !"
 ---
 
 Un réseau pour la simulation : "la ligne _Zéro_"
