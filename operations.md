@@ -200,7 +200,7 @@ Il faut éviter les zones inaccessibles pour pouvoir intervenir partout sur le r
 En l'absence d'un dispositif pour retourner les trains dans le cas de certaines topologies (ex : réseau circulaire) il faut accepter que les trains ne puissent pas effectuer des allers-retours.  
 Par ailleurs, un pont tournant nécessite moins d'espace qu'un triangle de voies
 
-### Préparation des trains avant ou pendant (coulisse) ?
+### Préparation des trains en coulisse ?
 
 Le garage des trains en attente dans une gare cachée inaccessible interdit de les retourner et d'en modifier la composition. C'est une des raisons qui justifie une coulisse séparée du réseau mais ouverte pour qu'un opérateur puisse y intervenir (avec une 0-5-0 !).
 
@@ -348,7 +348,7 @@ Autre point important, on ressent une certaine dilatation du temps pour tous les
 
 A l'avenir je vais essayer d'autres horaires avec plus de variété dans les types de relations.
 
-### Liste de répartition des wagons (scénario 1) {#switchlist}
+### Liste de répartition des wagons {#switchlist}
 
 Les listes de répartition des wagons indiquent les mouvements de wagons de marchandises a réaliser pour répondre aux besoins des clients.
 Les wagons, vides ou remplis, sont déplacés d'un endroit à un autre qui sont par example une entreprise ou une zone de triage.

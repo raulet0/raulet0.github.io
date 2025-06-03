@@ -14,7 +14,7 @@ read_time: true
 last_modified_at: 2025-06-01T15:00:00+02:00
 ---
 
-Vous êtes fasciné par les simulations, et plus particulièrement par le monde captivant des réseaux de trains miniatures ? Vous êtes au bon endroit !
+Vous êtes fascinés par les jeux de simulation et par le monde captivant des réseaux de trains miniatures ? Vous êtes au bon endroit !
 
 J'ai toujours été passionné par les simulations réelles, et plus particulièrement par le monde fascinant des réseaux de trains modèles. Pour moi, c'est avant tout un plaisir, un terrain de jeu où je peux concrétiser mes idées. C'est pourquoi, dès 1998, j'ai commencé à construire un premier réseau pour mettre en pratique ces concepts. Plus récemment, un autre projet est en cours de développement, me permettant de tester de nouvelles solutions et d'approfondir mes connaissances. Mon inspiration est venue très tôt de modélistes américains qui poussent le réalisme assez loin au point d'offrir des simulations vraiment motivantes.
 

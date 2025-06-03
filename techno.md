@@ -1,13 +1,16 @@
 ---
 layout: single
-title: "Technologie"
+title: "TECHNOLOGIE"
 permalink: /techno/
+excerpt: "Technologies pour la simulation"
 header:
     image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
 author_profile: false
+sidebar:
+    nav: "techno"
 ---
 
 Software
