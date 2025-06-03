@@ -2,8 +2,9 @@
 layout: single
 title: "Présentation"
 permalink: /intro/
+excerpt: "MODELISME FERROVIAIRE ET SIMULATION"
 header:
-    image: /assets/images/headerimage.jpeg
+    overlay_image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: false
