@@ -18,44 +18,41 @@ a {
   text-decoration: none;
 }
 
-// html {
-//     font-size: 0.875em;
-// }
-
 @media (min-width: 48em) {
     html {
-        font-size:16px
+        font-size:16px;
     }
 }
 
 @media (min-width: 64em) {
     html {
-        font-size:16px
+        font-size:16px;
     }
 }
 
 @media (min-width: 80em) {
     html {
-        font-size:16px
+        font-size:16px;
     }
 }
 
 .toc__menu {
-    font-size: 0.9em // .75em
+    font-size: 0.9em; // .75em
 }
 
 .masthead__menu {
-    font-size: 1.25em
+    font-size: 1.25em;
 }
 
 @media (min-width: 64em) {
     .toc__menu {
-        font-size: 0.8em //.6875em
+        font-size: 0.8em; //.6875em
     }
 }
 
 h1 {
   font-size: 2em; // ~30px
+  font-weight: normal;
 }
 
 // .page__content p, .page__content li, .page__content dl {
