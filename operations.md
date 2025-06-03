@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Simulation
+title: Modélisme ferroviaire et simulation
 permalink: /operations/
 header:
     image: /assets/images/headerimage.jpeg
