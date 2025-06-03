@@ -40,12 +40,16 @@ a {
 }
 
 .toc__menu {
-    font-size: 1em // .75em
+    font-size: 0.9em // .75em
+}
+
+.masthead__menu {
+    font-size: 1.25em
 }
 
 @media (min-width: 64em) {
     .toc__menu {
-        font-size: 1em //.6875em
+        font-size: 0.8em //.6875em
     }
 }
 
