@@ -1,15 +1,17 @@
 ---
 layout: single
-title: Réseau
+title: "MODELISME FERROVIAIRE ET SIMULATION"
 permalink: /reseau/
+excerpt: "Des réseaux pour le jeu"
 header:
-    image: /assets/images/headerimage.jpeg
+    overlay_image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
 toc_label: "Réseaux"
 toc_sticky: true
 author_profile: false
+read_time: true
 sidebar:
   - title: "Ligne 0"
     image: /images/logo6.png
