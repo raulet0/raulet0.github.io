@@ -3,7 +3,7 @@
 @charset "UTF-8";
 
 $link-color: #0092ca;
-$type-size-3 : 1.953em;  // ~31.248px // for h1
+// $type-size-3 : 1.953em;  // ~31.248px // no effect on h1!
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -54,6 +54,9 @@ a {
     }
 }
 
+h1 {
+  font-size: 2em; // ~30px
+}
 
 // .page__content p, .page__content li, .page__content dl {
 //   font-size: 0.875em; /* 14px/16=0.875em */
