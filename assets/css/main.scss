@@ -55,11 +55,12 @@ h1 {
   font-weight: normal;
 }
 
-.sidebar p {
-    font-size: 1em;
-}
+.nav__sub-title {
+  font-size: 1em; // ~20px
+}  
+
 .sidebar li {
-    font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 // .page__content p, .page__content li, .page__content dl {
