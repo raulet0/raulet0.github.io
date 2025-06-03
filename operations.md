@@ -2,6 +2,7 @@
 layout: single
 title: Modélisme ferroviaire et simulation
 permalink: /operations/
+excerpt: "Un concept de jeu digital sur rails miniatures"
 header:
     image: /assets/images/headerimage.jpeg
     image_description: "G1000"
@@ -10,58 +11,7 @@ toc: true
 author_profile: false
 ---
 
-## Présentation
-
-MODELISME FERROVIAIRE ET SIMULATION
-
 Je suis particulièrement intéressé par l'exploitation des réseaux modèles, surtout d'un point de vue ludique. Ces quelques pages tentent d'expliquer mon point de vue. Dès 1998, j'ai commencé à construire un [réseau](/reseau) pour me permettre de mettre en pratique les idées exposées ici. Cela m'a permis de valider plusieurs solutions et de progresser sur ce sujet.
-
-
-[Mon projet : un jeu interactif](#presentation)
-
-*   Le but du jeu
-*   Les contraintes d'exploitation
-*   Les scores
-
-[Les définitions préalables](#definitions)
-
-*   Les sites et bâtiments
-*   Les trains
-
-[Le rôle des joueurs](#roles)
-
-*   Le conducteur
-*   Le chef de gare ou de zone
-*   Le chef du centre de triage caché (coulisse)
-
-[Le scénario](#scenario)
-
-*   Le trafic
-*   La simulation du trafic minimal
-
-[La conception du réseau pour le jeu](#conception)
-
-*   Voie unique ou double voie ?
-*   Boucle de retournement / topographie du réseau ?
-*   Zones cachées (accessibilité) ?
-*   Pont tournant ou triangle de voies ?
-*   Préparation des trains avant ou pendant (coulisse) ?
-*   Allongement artificiel des durées
-*   Thème ?
-*   Organisation du jeu ?
-
-[La commande du réseau](#commande)
-
-[La supervision et le logiciel de jeu](#supervision)
-
-*   Le programme de supervision
-*   Le programme de génération de scénario
-
-[Les documents pour la simulation](#documents)
-
-*   Tableau horaire
-*   Liste de répartition des wagons (scénario 1)
-
 
 ## Mon projet : un jeu interactif {#presentation}
 
