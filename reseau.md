@@ -7,6 +7,8 @@ header:
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
+toc_label: "Réseaux"
+toc_sticky: true
 author_profile: false
 sidebar:
   - title: "Ligne 0"
@@ -17,6 +19,7 @@ sidebar:
     text: "Une extension !"
 ---
 
+<!--
 Un réseau pour la simulation : "la ligne _Zéro_"
 
 ![](../images/logo6.png)
@@ -26,6 +29,7 @@ Un réseau pour la simulation : "la ligne _Zéro_"
 [La ligne miniZéro (depuis 2022)](#minizero)
 
 [La ligne Un (projet)](#un)
+-->
 
 En 1996, j'avais la place pour créer un réseau constitué de 7 modules et d'une coulisse permettant de réaliser une boucle, d'ou le nom de cette ligne : la ligne Zéro. Durant 5 années, j'ai pu tester mes idées concernant la simulation des opérations sous la forme d'un jeu. Après avoir déménagé en 2000, je n'avais plus assez de place pour remonter ce réseau et il a finalement été démantelé. En 2022, j'ai décidé de poursuivre quitte à utiliser un réseau beaucoup plus petit et la ligne miniZéro est alors apparue.
 
