@@ -55,10 +55,12 @@ h1 {
   font-weight: normal;
 }
 
-.sidebar p, .sidebar li {
+.sidebar p {
     font-size: 1em;
 }
-
+.sidebar li {
+    font-size: 0.8em;
+}
 
 // .page__content p, .page__content li, .page__content dl {
 //   font-size: 0.875em; /* 14px/16=0.875em */
