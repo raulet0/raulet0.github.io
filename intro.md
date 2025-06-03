@@ -11,6 +11,7 @@ toc: false
 author_profile: false
 show_date: true
 read_time: true
+last_modified_at: 2025-06-01
 ---
 
 Vous avez toujours été fasciné par les simulations, et plus particulièrement par le monde captivant des réseaux de trains miniatures ? Vous êtes au bon endroit !
