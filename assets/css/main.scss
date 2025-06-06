@@ -8,11 +8,11 @@ $link-color: #0092ca;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.masthead {
-  position: sticky;
-  top: 0;
-  background-color: $background-color;
-}
+// .masthead {
+//   position: sticky;
+//   top: 0;
+//   background-color: $background-color;
+// }
 
 // @media (min-width: 64em) {
 //     .sticky {
@@ -20,9 +20,9 @@ $link-color: #0092ca;
 //     }
 // }
 
-.initial-content {
-    padding-top: 100px; // 6.25em
-}
+// .initial-content {
+//     padding-top: 100px; // 6.25em
+// }
 
 a {
   text-decoration: none;
