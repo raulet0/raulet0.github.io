@@ -14,10 +14,14 @@ $link-color: #0092ca;
   background-color: $background-color;
 }
 
-@media (min-width: 64em) {
-    .sticky {
-        top: 100px; // 6.25em
-    }
+// @media (min-width: 64em) {
+//     .sticky {
+//         top: 100px; // 6.25em
+//     }
+// }
+
+.initial-content {
+    padding-top: 100px; // 6.25em
 }
 
 a {
