@@ -8,9 +8,12 @@ header:
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
-    nav: "techno"
+    nav:
+        - mainleft
+        - techno
 ---
 
 Software

@@ -14,6 +14,24 @@ main:
   - title: "Contact"
     url: /welcome/
 
+mainleft:
+  - title: "Menu"
+    children:
+      - title: "Intro"
+        url: /intro/
+      - title: "Simulation"
+        url: /operations/
+      - title: "Jeu"
+        url: /reglement/
+      - title: "Réseaux"
+        url: /reseau/
+      - title: "Technos"
+        url: /techno/
+      - title: "Médias"
+        url: /photos/
+      - title: "Contact"
+        url: /welcome/
+
 techno:
   - title: "Hardware"
     children:
