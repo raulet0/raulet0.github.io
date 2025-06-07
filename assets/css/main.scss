@@ -8,25 +8,29 @@ $link-color: #0092ca;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// .masthead {
+// .masthead { // permet une barre de menu sticky mais PB calage hyperdocuments
 //   position: sticky;
 //   top: 0;
 //   background-color: $background-color;
 // }
 
-// @media (min-width: 64em) {
+// @media (min-width: 64em) { // decale vers le bas toc et menu nav
 //     .sticky {
 //         top: 100px; // 6.25em
 //     }
 // }
 
-// .initial-content {
+// .initial-content { // decale tout le contenu de la page yc le page__hero
 //     padding-top: 100px; // 6.25em
 // }
 
-#main {
-    padding-top: 100px; // 6.25em
-}
+// #main {
+//     padding-top: 100px; // 6.25em // decale le contenu de la page sous le page__hero, yc toc
+// }
+
+// .page__content p, .page__content li, .page__content dl { // NOK
+//   font-size: 0.875em; /* 14px/16=0.875em */
+// }
 
 a {
   text-decoration: none;
@@ -76,7 +80,3 @@ h1 {
 .sidebar li {
   font-size: 0.9em;
 }
-
-// .page__content p, .page__content li, .page__content dl {
-//   font-size: 0.875em; /* 14px/16=0.875em */
-// }
