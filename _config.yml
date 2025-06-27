@@ -65,7 +65,7 @@ author:
   name   : "Rauletus"
   # avatar : "/assets/images/bio-photo.jpg"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Pasionné de modélisme ferroviaire et d'informatique, Rauletus est l'auteur de ce site dédié à l'exploitation ludique des réseaux de trains modèles. Il partage ses connaissances et ses expériences pour aider les passionnés à créer des simulations ferroviaires réalistes et amusantes."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
