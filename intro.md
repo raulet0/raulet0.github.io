@@ -14,7 +14,7 @@ read_time: true
 last_modified_at: 2025-06-27T15:00:00+02:00
 ---
 
-Vous êtes fascinés comme moi par les jeux de simulation et par le monde captivant des réseaux de trains miniatures ? Alors vous êtes au bon endroit !
+Vous êtes fascinés comme moi par les jeux de simulation et par le monde captivant des réseaux de trains miniatures ? Alors vous êtes au bon endroit ! 
 
 ## La technologie au service d'un nouveau réalisme
 Les avancées constantes de la technologie transforment nos opérations ferroviaires miniatures, les rendant toujours plus réalistes.
