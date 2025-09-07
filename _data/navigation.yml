@@ -1,34 +1,30 @@
 main:
-  - title: "Intro"
-    url: /intro/
   - title: "Simulation"
     url: /operations/
-  - title: "Jeu"
+  - title: "Jeux"
     url: /reglement/
   - title: "Réseaux"
     url: /reseau/
   - title: "Technos"
     url: /techno/
-  - title: "Médias"
-    url: /photos/
+  - title: "Ressources"
+    url: /ressources/
   - title: "Contact"
     url: /welcome/
 
 mainleft:
   - title: "Menu"
     children:
-      - title: "Intro"
-        url: /intro/
       - title: "Simulation"
         url: /operations/
-      - title: "Jeu"
+      - title: "Jeux"
         url: /reglement/
       - title: "Réseaux"
         url: /reseau/
       - title: "Technos"
         url: /techno/
-      - title: "Médias"
-        url: /photos/
+      - title: "Ressources"
+        url: /ressources/
       - title: "Contact"
         url: /welcome/
 

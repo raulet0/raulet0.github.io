@@ -58,6 +58,8 @@ Le thème que j'ai choisi se caractérise donc ainsi :
 ![](../images/plan.gif)  
 Plan du réseau : 4,60 mètres x 2,60 mètres
 
+[Cliquez ici pour voir des photos de ce réseau](/photos/)
+
 ### La méthodologie de réalisation
 
 Les idées clés de ma méthodologie pour ce réseau sont les suivantes :
