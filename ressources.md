@@ -44,4 +44,3 @@ author_profile: false
 
 * * *
 
-Conception et réalisation © 1998-2025 MRA

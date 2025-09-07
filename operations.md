@@ -107,41 +107,7 @@ Un rôle est attribué à chaque joueur :
 *   chef de gare ou de zone ;
 *   chef du centre de triage caché (coulisse).
 
-### Le conducteur {#conducteur}
-
-Un conducteur est responsable d'un train de voyageurs ou de marchandises.
-
-Les tâches d'un conducteur sont les suivantes :
-
-*   prendre en charge sa machine au dépôt (cf. procédure) ;
-*   conduire son train de son origine à sa destination ;
-*   respecter sa fiche horaire ;
-*   respecter le code de la route ferroviaire ;
-*   gérer sa loco (consommations, ravitaillement) ;
-*   gérer les signaux et aiguilles devant et derrière son train ;
-*   gérer son train (dépose et enlèvement de wagons aux points de passage) ;
-*   laisser sa machine au dépôt (cf. procédure) ;
-*   coordonner ses actions avec celles des autres joueurs.
-
-### Le chef de gare ou de zone {#chef_gare}
-
-Le chef de gare ou de zone est responsable de tout ce qui se passe dans sa gare ou sa zone. Ses tâches sont les suivantes :
-
-*   gérer le train collecteur de marchandise ;
-*   gérer les voies en gare ;
-*   gérer les signaux et aiguilles des voies en gare ;
-*   gérer les locotracteurs dédiés à la répartition des wagons ;
-*   gérer la halle à marchandises.
-
-### Le chef du centre de triage caché (coulisse) {#chef_triage}
-
-Les tâches du responsable de la coulisse sont les suivantes :
-
-*   réceptionner les trains ;
-*   mélanger et trier les wagons pour simuler le trafic extérieur à la zone maquettée ;
-*   gérer le chargement des wagons ;
-*   expédier les trains (application des horaires) ;
-*   gérer le trafic automatique.
+La présentation plus détaillée des rôles est décrite dans la [page consacrée aux jeux](/reglement.md).
 
 ## Le scénario {#scenario}
 
@@ -182,30 +148,24 @@ La réalisation d'un réseau où l'on veut simuler des opérations réalistes n�
 
 Voici par exemple quelques questions d'importance :
 
-### Voie unique ou double voie ?
+### Voie unique ou double voie
 
 Une voie double permet de faire circuler plus de trains simultanément ce qui peut occuper plus d'opérateurs. Elle permet par exemple de faire tourner un train en boucle simulant alors un trafic permanent dans lequel un opérateur doit insérer son train sans rien perturber. Elle permet aussi des circulations plus complexes.
 
-### Boucle de retournement / topographie du réseau ?
+### Boucle de retournement / topographie du réseau
 
 Trois exemples :
 
-1) Un réseau en forme d'os dans un schéma en double voie (sans boucle de retournement) facilite l'aller et le retour continu des trains par les gares de passage : on a plus de trafic en ligne et une gestion plutôt simple, il faut respecter l'espacement. Pour certains wagons, il faut modifier leur chargement (les vider ou les remplir) pour simuler l'activité.
+1) Un réseau en forme d'os de chien dans un schéma en double voie (sans boucle de retournement) facilite l'aller et le retour continu des trains par les gares de passage : on a plus de trafic en ligne et une gestion plutôt simple, il faut respecter l'espacement. Pour certains wagons, il faut modifier leur chargement (les vider ou les remplir) pour simuler l'activité.
 
 2) Un réseau en forme d'os en voie unique impose deux boucles de retournement : on a moins de trafic en ligne et une exploitation compliquée par la gestion de l'occupation de la voie (sans compter les problèmes électriques).
 
 3) Un réseau circulaire, même assez grand autour d'une pièce, ne permet pas de gérer facilement l'aller retour des trains (ils passent naturellement toujours dans le même sens dans les gares) : il est alors utile d'avoir une coulisse permettant de retourner les trains avec une 0-5-0 (main de cinq doigts) ou une autre machine mais cela prend du temps, ça casse la fluidité du trafic et ça rend disproportionnées les durées de triage relativement aux durées des parcours.
 
-### Zones cachées (accessibilité) ?
+En l'absence d'un dispositif pour retourner les trains dans le cas de certaines topologies (ex : réseau circulaire) il faut peut-être accepter que les trains ne puissent pas effectuer des allers-retours.
+Par ailleurs, un pont tournant nécessite moins d'espace qu'un triangle de voies qui nécessite lui-même probablement moins d'espace qu'une boucle de retournement.
 
-Il faut éviter les zones inaccessibles pour pouvoir intervenir partout sur le réseau, en cas de déraillement, en cas d'encrassement des voies nécessitant des interventions manuelles.
-
-### Pont tournant ou triangle de voies ?
-
-En l'absence d'un dispositif pour retourner les trains dans le cas de certaines topologies (ex : réseau circulaire) il faut accepter que les trains ne puissent pas effectuer des allers-retours.  
-Par ailleurs, un pont tournant nécessite moins d'espace qu'un triangle de voies
-
-### Préparation des trains en coulisse ?
+### Préparation des trains en coulisse
 
 Le garage des trains en attente dans une gare cachée inaccessible interdit de les retourner et d'en modifier la composition. C'est une des raisons qui justifie une coulisse séparée du réseau mais ouverte pour qu'un opérateur puisse y intervenir (avec une 0-5-0 !).
 
@@ -215,11 +175,11 @@ Nos réseaux étant le plus souvent assez comprimés, les distances entre les ga
 
 L'utilisation d'une spirale permet de franchir des dénivelés importants et permet d'allonger la durée d'un trajet entre deux points : cela laisse un peu de temps aux opérateurs.
 
-### Thème ?
+### Thème
 
 Le choix du thème a un impact très important sur les possibilités de jeu. Par exemple, le trafic dans les zones industrielles est important mais surtout composé de trains de marchandises, tandis que le trafic en campagne sur une ligne secondaire peut être moins important mais plus varié, avec des trains marchandises / voyageurs (MV) et des autorails.
 
-### Organisation du jeu ?
+### Organisation du jeu
 
 *   nombre d'opérateurs et rôles associés ?
 *   degré d'assistance ou d'automatisme : contrôle manuel ou automatique des aiguilles, des cantons, des signaux ?
@@ -242,11 +202,14 @@ Dans le désordre :
 
 Il faut que les opérateurs soient déchargés des tâches de gestion de l'affectation des commandes aux cantons.
 
-J'ai examiné principalement trois types de systèmes :
+Lors de mes premières réflexions en 1995, j'avais examiné principalement trois types de systèmes :
 
 *   les commandes traditionnelles (transfo classique) ;
 *   les commandes de conduite sélective (ex : CS 90, JAO) ;
 *   les commandes digitales avec décodeur à bord des locomotives (ex : Digital-Plus de LENZ).
+
+Pour ceux que cela intéresse, je présente un récapitulatif dans le tableau ci-dessous.
+Mais depuis maintenant plusieurs années, il faut bien reconnaître que la commande numérique s'est généralisée grâce à de nombreux fournisseurs qui ont développé la technologie standard DCC de la **[NMRA](http://www.nmra.org/)**, dont les décodeurs embarqués dans les locomotives, les décodeurs d'accessoires, les centrales de commande, etc.
 
 **Tableau comparatif :**  
 
@@ -262,9 +225,7 @@ Du point de vue de l'exploitation, la solution de commande classique limite les 
 
 Au titre des avantages, le prix d'une commande traditionnelle reste faible, en tout cas il est encore assez inférieur à celui d'une commande digitale prête à l'emploi. En outre, les locomotives n'ont pas besoin d'être modifiées (par exemple, être équipées de décodeurs). L'utilisation de l'éclairage constant reste tout de même un problème car il n'est pas si facile que ça à mettre en oeuvre.
 
-Les commandes de conduite sélective ont pour moi l'inconvénient de ne pas être fondées sur une norme standardisée reconnue par les constructeurs. Leur prix reste assez élevé.
-
-Au contraire, la plupart des commandes digitales sont désormais basées sur le standard DCC de la **[NMRA](http://www.nmra.org/)** ce qui constitue un gage de pérennité et de diminution des prix de par le jeu de la concurrence. Pour les passionnés d'électronique et d'informatique, il est possible de construire une commande DCC à partir de composants open source pour le dizième du prix d'une commande du marché.
+Pour les passionnés d'électronique, il est possible de construire une commande DCC à partir de composants open source pour le dizième du prix d'une commande du marché.
 
 ## La supervision et le logiciel de jeu {#supervision}
 

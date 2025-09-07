@@ -48,6 +48,45 @@ Définitions
 
 **LOCOTRACTEUR** : engin assigné au triage et circulant dans ses limites.
 
+Rôle des joueurs
+----------------
+
+### Le conducteur {#conducteur}
+
+Un conducteur est responsable d'un train de voyageurs ou de marchandises.
+
+Les tâches d'un conducteur sont les suivantes :
+
+*   prendre en charge sa machine au dépôt (cf. procédure) ;
+*   conduire son train de son origine à sa destination ;
+*   respecter sa fiche horaire ;
+*   respecter le code de la route ferroviaire ;
+*   gérer sa loco (consommations, ravitaillement) ;
+*   gérer les signaux et aiguilles devant et derrière son train ;
+*   gérer son train (dépose et enlèvement de wagons aux points de passage) ;
+*   laisser sa machine au dépôt (cf. procédure) ;
+*   coordonner ses actions avec celles des autres joueurs.
+
+### Le chef de gare ou de zone {#chef_gare}
+
+Le chef de gare ou de zone est responsable de tout ce qui se passe dans sa gare ou sa zone. Ses tâches sont les suivantes :
+
+*   gérer le train collecteur de marchandise ;
+*   gérer les voies en gare ;
+*   gérer les signaux et aiguilles des voies en gare ;
+*   gérer les locotracteurs dédiés à la répartition des wagons ;
+*   gérer la halle à marchandises.
+
+### Le chef du centre de triage caché (coulisse) {#chef_triage}
+
+Les tâches du responsable de la coulisse sont les suivantes :
+
+*   réceptionner les trains ;
+*   mélanger et trier les wagons pour simuler le trafic extérieur à la zone maquettée ;
+*   gérer le chargement des wagons ;
+*   expédier les trains (application des horaires) ;
+*   gérer le trafic automatique.
+
 Règles générales
 ----------------
 
