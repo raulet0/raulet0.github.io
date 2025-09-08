@@ -1,10 +1,10 @@
 ---
 layout: single
-title: Modélisme ferroviaire et simulation
+title: "MODELISME FERROVIAIRE ET SIMULATION"
 permalink: /operations/
 excerpt: "Un concept de jeu digital sur rails miniatures"
 header:
-    image: /assets/images/headerimage.jpeg
+    overlay_image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
@@ -29,9 +29,10 @@ Associé à un système de supervision, mon réseau pourrait être considéré c
 ### Le but du jeu
 
 L'ensemble des joueurs doit dérouler un scénario sur une durée donnée en temps accéléré. Le trafic doit être écoulé en respectant les horaires établis :
-
 *   les trains de voyageurs doivent circuler en respectant les départs et arrivées en gare ;
 *   les wagons de marchandise doivent être livrés à temps sur leur lieu de destination.
+
+Et surtout, les joueurs doivent respecter des règles du jeu que l'on peut déterminer librement au départ. Ces règles peuvent reprendre tout ou partie des règles en vigueur à la SNCF ou simplement s'en inspirer. La rubrique [Jeux](/reglement.md) montre un exemple.
 
 ### Les contraintes d'exploitation
 
@@ -148,11 +149,15 @@ La réalisation d'un réseau où l'on veut simuler des opérations réalistes n�
 
 Voici par exemple quelques questions d'importance :
 
-### Voie unique ou double voie
+### Thème
+
+Le choix du thème a un impact très important sur les possibilités de jeu. Par exemple, le trafic dans les zones industrielles est important mais surtout composé de trains de marchandises, tandis que le trafic en campagne sur une ligne secondaire peut être moins important mais plus varié, avec des trains marchandises / voyageurs (MV) et des autorails.
+
+### Voie unique ou double
 
 Une voie double permet de faire circuler plus de trains simultanément ce qui peut occuper plus d'opérateurs. Elle permet par exemple de faire tourner un train en boucle simulant alors un trafic permanent dans lequel un opérateur doit insérer son train sans rien perturber. Elle permet aussi des circulations plus complexes.
 
-### Boucle de retournement / topographie du réseau
+### Topologie
 
 Trois exemples :
 
@@ -165,8 +170,9 @@ Trois exemples :
 En l'absence d'un dispositif pour retourner les trains dans le cas de certaines topologies (ex : réseau circulaire) il faut peut-être accepter que les trains ne puissent pas effectuer des allers-retours.
 Par ailleurs, un pont tournant nécessite moins d'espace qu'un triangle de voies qui nécessite lui-même probablement moins d'espace qu'une boucle de retournement.
 
-### Préparation des trains en coulisse
+### Coulisse
 
+Une zone agissant comme la coulisse d'un théatre est nécessaire pour préparer et garer les trains.
 Le garage des trains en attente dans une gare cachée inaccessible interdit de les retourner et d'en modifier la composition. C'est une des raisons qui justifie une coulisse séparée du réseau mais ouverte pour qu'un opérateur puisse y intervenir (avec une 0-5-0 !).
 
 ### Allongement artificiel des durées
@@ -174,10 +180,6 @@ Le garage des trains en attente dans une gare cachée inaccessible interdit de l
 Nos réseaux étant le plus souvent assez comprimés, les distances entre les gares sont très courtes (quelques mètres). En jouant sur le facteur d'accélération du temps, à l'aide d'une horloge accélérée, on simule des [tableaux horaires](/operations/#documents) réalistes (avec un facteur 12, 5 minutes réelles sont considérées comme 1 heure simulée et 1 mètre réel représente 1 kilomètre simulé), mais il n'empêche que les durées réelles des trajets, celles qui permettent aux opérateurs de préparer les tâches suivantes, sont courtes : 10 mètres réels de voie représentent 10 kilomètres parcourus approximativement en 30 secondes réelles à une vitesse simulée de 60 kilomètres / heure. Ca ne laisse pas beaucoup de temps pour basculer les aiguilles, dégager les voies, se préparer aux mouvements suivants, le tout sans se tromper !
 
 L'utilisation d'une spirale permet de franchir des dénivelés importants et permet d'allonger la durée d'un trajet entre deux points : cela laisse un peu de temps aux opérateurs.
-
-### Thème
-
-Le choix du thème a un impact très important sur les possibilités de jeu. Par exemple, le trafic dans les zones industrielles est important mais surtout composé de trains de marchandises, tandis que le trafic en campagne sur une ligne secondaire peut être moins important mais plus varié, avec des trains marchandises / voyageurs (MV) et des autorails.
 
 ### Organisation du jeu
 
@@ -234,15 +236,15 @@ Il est également possible de réaliser un système entièrement électronique s
 Le programme de supervision (ou simulateur) doit faciliter le déroulement du jeu et laisser les joueurs se concentrer sur les actions ferroviaires.
 Il peut notamment gérer l'affichage du scénario choisi et matérialiser chaque étape.
 
-Laissez moi décrire l'histoire de mon retour d'expérience débuté en 1995 et vous montrer les bénéfices que l'on peut retirer d'un programme de supervision du jeu.
+Laissez moi décrire l'histoire de mon retour d'expérience débuté en 1998 et vous montrer les bénéfices que l'on peut retirer d'un programme de supervision du jeu.
 
 Le premier besoin rencontré a été l'affichage d'une horloge accélérée.
 En effet, mes premières simulations gérées manuellement (sans autre outil qu'un scénario sur une feuille de papier) m'ont permis de découvrir qu'il fallait augmenter artificiellement les longueurs parcourues ce qui correspond à accélérer l'écoulement du temps. Cette pendule doit être visible d'un bout à l'autre du réseau.
 En 1995, les solutions qu'on pouvait facilement se procurer n'étaient pas nombreuses. J'ai donc décidé de réaliser un programme qui affichait en gros caractères une horloge accélérée sur l'écran d'un vieux PC. J'ai testé plusieurs facteurs d'accélération de 2 à 12.
 
 Ensuite, le contrôle des temps de passage en gare nécessite une mesure relativement précise mais le temps défile vite et je perdais du temps à noter sur ma feuille les heures de passage pendant que je ne pouvais pas réguler la vitesse de mon train.
-Parfois, je ratais le contrôle d'un passage et cela générait un doute sur les heures relevées.
-J'ai donc profité de mon PC pour détecter automatiquement l'heure d'entrée du train en gare à chaque passage. Tant qu'à faire, je devais indiquer au programme la liste des gares à traverser dans l'ordre chronologique pour qu'il affiche l'heure de passage associée à chaque gare. Le train était détecté avec un ILS en entrée de gare ce qui était alors le plus simple à mettre en oeuvre.
+Parfois, accaparé par la conduite de mon train, je ratais le contrôle d'un passage et cela générait un doute sur les heures relevées.
+J'ai donc profité de mon PC pour détecter automatiquement l'heure d'entrée du train en gare. Tant qu'à faire, je devais indiquer au programme la liste des gares à traverser dans l'ordre chronologique pour qu'il affiche l'heure de passage associée à chaque gare. Le train était détecté avec un ILS en entrée de gare ce qui était alors le plus simple à mettre en oeuvre.
 
 Mes scénarios prévoyaient des arrêts prolongés dans certaines gares de passage pour échanger des wagons. Ces arrêts étant beaucoup plus longs qu'un simple arrêt voyageur de 2 minutes, il devenait également utile de noter l'heure de sortie de la gare ce que j'ai facilement réalisé avec un deuxième ILS en sortie de gare.
 
@@ -270,7 +272,7 @@ NB : en cas de panne simulée de carburant, les règles du jeu peuvent par exemp
 
 La rubrique [Technos](/techno.md) décrit plus en détail les possibilités de réalisation d'un système de supervision du jeu.
 
-Tout cela s'est déroulé entre 1995 et 2000. Depuis, la technologie permet d'aller beaucoup plus loin et je développe de nouvelles idées dans la continuité de ce concept.
+Tout cela s'est déroulé entre 1998 et 2000. Depuis, la technologie permet d'aller beaucoup plus loin et je développe de nouvelles idées dans la continuité de ce concept.
 
 ### Génération de scénario {#prog_generation}
 
