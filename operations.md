@@ -28,7 +28,7 @@ Associé à un système de supervision, mon réseau pourrait être considéré c
 
 ### Le but du jeu
 
-L'ensemble des joueurs doit dérouler un scénario sur une durée donnée en temps accéléré. Le trafic doit être écoulé en respectant les horaires établis :
+L'ensemble des joueurs doit dérouler un scénario sur une durée déterminée. Par principe, le trafic doit être écoulé en respectant des horaires établis :
 *   les trains de voyageurs doivent circuler en respectant les départs et arrivées en gare ;
 *   les wagons de marchandise doivent être livrés à temps sur leur lieu de destination.
 
@@ -63,7 +63,7 @@ Cependant, lorsque l'on s'intéresse à l'exploitation réaliste du réseau mod�
 Lorsque l'on souhaite simuler les flux réels de voyageurs et de marchandises, il est possible de considérer :
 
 *   le réseau modèle (zone géographiquement délimitée) ;
-*   l'extérieur du réseau, simulé alors par une "**coulisse**" (les américains appellent cette zone "fiddle yard").
+*   l'extérieur du réseau, simulé alors par une "**coulisse**" (les anglais appellent cette zone "fiddle yard", les américains "staging yard").
 
 Cette coulisse correspond à la gare cachée de certains réseaux modèles, qui permet de cacher les trains pour les faire apparaître aux observateurs au moment voulu. Contrairement à une gare cachée, nous considérons la coulisse comme entièrement visible pour autoriser sa gestion par un opérateur :
 
