@@ -128,7 +128,31 @@ La commande MRC 2000 ne s'interface pas avec un ordinateur. Je ne peux donc pas 
 
 ### Supervision {#supervision}
 
-A l'époque, j'ai utilisé un vieux PC 8086 avec des contacts ILS reliés directement sur le port parallèle.
+En 1998 :
+
+*   un ordinateur PC avec un port parallèle et un port série (ex : mon vieux 8086) ;
+*   un boîtier d'interface avec entrées isolées et sorties sur relais à brancher sur le port série ou parallèle du PC (ex : modèle ORD102 prêt à l'emploi de la société [ELECTROME](http://www.jclelectrome.fr/)) ;
+*   quelques contacts ILS disposés aux endroits stratégiques du réseau et en entrée/sortie de la gare (remarque : une seule locomotive peut alors être facilement contrôlée) ;
+*   l'allumage et l'extinction progressive de la lumière, en douceur, pouvait être réalisée par un module électronique (ex : kit K2657 de Velleman-kit environ 25 Euros TTC).
+
+En 2020, la technologie offre des solutions plus simples et plus puissantes :
+
+* un ordinateur PC avec ports USB et/ou WiFi ;
+* des circuits électroniques d'interface peuvent être réalisés facilement avec Arduino (ou Raspberry Pi) par exemple.
+
+**Quelques précisions :**
+
+Cette solution de supervision offre l'avantage d'être indépendante du système d'alimentation qui peut être classique ou numérique.
+
+Dans mon cas, il faut noter que le réseau était constitué d'une voie unique de longueur assez limitée (12 mètres en boucle) et d'une gare unique. Je souhaite pourtant réaliser des scénarios passant par plusieurs gares. J'ai donc adopté le principe que l'unique gare réelle peut représenter plusieurs gares fictives. Bien entendu, il faut faire preuve d'imagination mais l'imagination est de toute manière une composante essentielle du jeu ! Tout scénario passant virtuellement par plusieurs gares boucle par l'unique gare réelle existante sur le réseau. Pour aider les joueurs, l'ordinateur affiche alors le nom de la gare courante, les joueurs ne doivent pas tenir compte du nom inscrit sur le bâtiment de la gare réelle (là encore, l'ordinateur apporte une aide).
+
+Les contacts ILS ne permettant de distinguer de manière simple qu'une seule locomotive, les joueurs conducteurs doivent réaliser le plan prévu au tableau horaire chacun leur tour pour que le programme puisse calculer leur score (cette contrainte n'enlève pas d'intérêt au jeu car plusieurs joueurs sont requis pour exécuter ce type de scénario : un conducteur, un contrôleur pour les aiguillages et un chef de gare). Toutefois, le système reste évolutif car il faut noter que l'utilisation d'un système de reconnaissance de type code à barre à la place des ILS permettrait alors au programme de gérer simultanément plusieurs trains, donc plusieurs joueurs.
+
+
+
+
+
+
 
 
 ![Photo du PC de supervision](../photos/victor1.jpg)

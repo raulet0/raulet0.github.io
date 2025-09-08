@@ -188,28 +188,24 @@ Le choix du thème a un impact très important sur les possibilités de jeu. Par
 
 ## La commande du réseau {#commande}
 
-De quoi a t-on besoin pour exploiter son réseau dans de bonnes conditions de jeu ?
+De quoi a t-on besoin pour jouer une simulation dans de bonnes conditions de jeu ?
 
-Dans le désordre :
+Typiquement :
 
-*   une commande mobile de type "walk-around" pour chaque joueur ;
-*   un câblage simplifié au maximum ;
-*   un partitionnement électrique très simple du réseau en zones distinctes ;
-*   une commande de train gérée par un ordinateur, en plus des commandes des joueurs ;
-*   une alimentation avec asservissement de vitesse pour chaque commande (permet des ralentis extrêmes même pour les locos peu performantes) ;
-*   l'éclairage constant des feux de locos ;
-*   un Tableau de Contrôle Optique (TCO) sur écran d'ordinateur.
+*   une commande mobile pour chaque joueur ;
+*   une commande de train gérée par un ordinateur pour simuler le trafic automatisé ;
+*   si possible un Tableau de Contrôle Optique (TCO) selon la taille du réseau.
 
 Il faut que les opérateurs soient déchargés des tâches de gestion de l'affectation des commandes aux cantons.
 
-Lors de mes premières réflexions en 1995, j'avais examiné principalement trois types de systèmes :
+Depuis maintenant plusieurs années, nous constatons que la commande numérique s'est généralisée grâce à de nombreux fournisseurs qui ont développé la technologie standard DCC de la **[NMRA](http://www.nmra.org/)**, comprenant les décodeurs embarqués dans les locomotives, les décodeurs d'accessoires, les centrales de commande, etc. C'est certainement la solution la plus adaptée pour celui qui débute cette activité.
+
+Pour ceux qui sont équipés en commande analogique et que cela intéresse, je présente un tableau comparatif ci-dessous.
+Lors de mes premières réflexions (en 1995), j'avais examiné principalement trois types de systèmes :
 
 *   les commandes traditionnelles (transfo classique) ;
 *   les commandes de conduite sélective (ex : CS 90, JAO) ;
 *   les commandes digitales avec décodeur à bord des locomotives (ex : Digital-Plus de LENZ).
-
-Pour ceux que cela intéresse, je présente un récapitulatif dans le tableau ci-dessous.
-Mais depuis maintenant plusieurs années, il faut bien reconnaître que la commande numérique s'est généralisée grâce à de nombreux fournisseurs qui ont développé la technologie standard DCC de la **[NMRA](http://www.nmra.org/)**, dont les décodeurs embarqués dans les locomotives, les décodeurs d'accessoires, les centrales de commande, etc.
 
 **Tableau comparatif :**  
 
@@ -229,51 +225,52 @@ Pour les passionnés d'électronique, il est possible de construire une commande
 
 ## La supervision et le logiciel de jeu {#supervision}
 
-Le système de supervision impose l'utilisation d'un ordinateur et d'un logiciel. Il est également possible de réaliser un système entièrement électronique, par exemple avec des cartes Arduino ou Raspberry Pi, mais il n'est pas aussi facilement évolutif.
+La supervision du jeu est plus facile avec l'utilisation d'un ordinateur et d'un logiciel approprié.
+Cela permet d'automatiser une partie du trafic dans lequel il faut s'intercaler le cas échéant et cela apporte également une aide au déroulement des scénarios et à la surveillance de leur bon déroulement.
+Il est également possible de réaliser un système entièrement électronique sans PC, par exemple avec des cartes Arduino ou Raspberry Pi, mais il n'est pas aussi facilement évolutif.
 
 ### Le programme de supervision {#prog_supervision}
 
-#### Les fonctions du programme de supervision
+Le programme doit faciliter le déroulement du jeu et laisser les joueurs se concentrer sur les actions ferroviaires.
+Il peut notamment gérer l'affichage du scénario choisi et matérialiser chaque étape.
 
-Le mode de fonctionnement recherché nécessite principalement l'entrée de signaux provenant soit du réseau vers l'ordinateur, soit du clavier.
+Laissez moi décrire l'histoire de mon retour d'expérience débuté en 1995 ou j'ai découvert les bénéfices que je pouvais retirer d'un programme de supervision du jeu.
 
-Le programme de supervision est chargé de :
+Le premier besoin rencontré a été l'affichage d'un horloge accélérée.
+En effet, mes premières simulations gérées manuellement (sans autre outil qu'un scénario sur une feuille de papier) m'ont permis de découvrir qu'il fallait augmenter artificiellement les longueurs parcourues ce qui correspond à accélérer l'écoulement du temps. Cette pendule doit être visible d'un bout à l'autre du réseau ce qui nécessite un affichage assez gros.
+En 1995, les solutions n'étaient pas nombreuses. J'ai donc décidé de réaliser un programme qui affichait en gros caractères une horloge accélérée sur l'écran d'un vieux PC. J'ai testé plusieurs facteurs d'accélération de 2 à 12.
+
+Ensuite, le contrôle des temps de passage en gare nécessite une mesure relativement précise mais le temps défile vite et je perdais du temps à noter sur ma feuille les heures de passage pendant que je ne pouvais pas réguler la vitesse de mon train.
+Parfois, je loupais un passage et cela générait un doute sur les heures relevées.
+J'ai donc profité de mon PC pour détecter automatiquement l'heure d'entrée du train en gare à chaque passage. Pour ce faire, je devais indiquer au programme la liste des gares à traverser dans l'ordre chronologique pour qu'il affiche l'heure de passage associée à chaque gare. Le train était détecté avec un ILS en entrée de gare ce qui était alors le plus simple à mettre en oeuvre.
+
+Mes scénarios prévoyaient des arrêts prolongés dans certaines gares de passage pour échanger des wagons. Ces arrêts étant beaucoup plus longs qu'un simple arrêt voyageur, il me fallait également l'heure de sortie de la gare ce que j'ai facilement réalisé avec un deuxième ILS en sortie de gare.
+
+Mon programme ayant la liste des gares à parcourir et les heures de passage, je pouvais calculer l'avance ou le retard des trains à condition d'ajouter ces horaires dans mes fichiers de scénarios. Puis avec la connaissance des heures d'entrée et de sortie, je pouvais alors calculer la vitesse à l'échelle accélérée de mes trains. Puis je pouvais calculer la distance cumulée parcourue. Puis je pouvais calculer une consommation simulée de carburant.
+
+Ensuite, j'ai réalisé de multiples simulations pour jouer au train et je me suis bien amusé !
+
+En observant les écarts inévitables entre les scénarios et leur déroulement, j'ai constaté que je faisais parfois des erreurs. J'ai alors eu l'idée de mettre au point un système de score basée sur le respect des règles du jeu fixées au départ : respect des horaires, des vitesses, des mouvements de wagons, etc. Il me suffisait d'exploiter les données déjà présentes dans mon programme et dans les fichiers des scénarios. Cela apportait une sorte de motivation supplémentaire sous la forme d'un challenge et me permettait d'imaginer que plusieurs joueurs pourraient se confronter, comme cela existait avec les jeux d'arcade.
+
+Ainsi, le programme de supervision est chargé de :
 
 *   afficher l'heure accélérée ;
 *   afficher la gare courante ;
 *   contrôler le chemin emprunté par les trains ;
 *   contrôler le respect des consignes de vitesse ;
 *   contrôler le respect du tableau des horaires (arrêts aux stations prévues, heures d'arrivée, heures de départ) ;
-*   simuler la consommation des locomotives et contrôler le réapprovisionnement (bouton ou clavier), le cas échéant, il est nécessaire de dépêcher sur place une autre locomotive, ce qui perturbe le trafic ;
+*   simuler la consommation des locomotives et contrôler le réapprovisionnement (bouton ou clavier) ;
+*   simuler des pannes de carburant ou des avaries du matériel ;
 *   commander les signaux et contrôler le respect des signaux ;
 *   commander l'éclairage du réseau (jour, nuit) ;
-*   commander la coupure d'alimentation de certaines sections pour simuler des pannes de carburant ou des avaries du matériel ;
 *   calculer le score ;
 *   etc.
 
-#### Le matériel électronique et informatique
+NB : en cas de panne simulée de carburant, les règles du jeu peuvent par exemple rendre nécessaire de dépêcher sur place une autre locomotive, ce qui perturbe le trafic avec un impact inévitable sur le score.
 
-**La solution matérielle permettant de réaliser un système de supervision avec les fonctions décrites précédemment consiste en :**
+La rubrique [Technos](/techno.md) décrit plus en détail les possibilités de réalisation d'un système de supervision du jeu.
 
-En 1998 :
-
-*   un ordinateur PC avec un port parallèle et un port série (ex : mon vieux 8086) ;
-*   un boîtier d'interface avec entrées isolées et sorties sur relais à brancher sur le port série ou parallèle du PC (ex : modèle ORD102 prêt à l'emploi de la société [ELECTROME](http://www.jclelectrome.fr/)) ;
-*   quelques contacts ILS disposés aux endroits stratégiques du réseau et en entrée/sortie de la gare (remarque : une seule locomotive peut alors être facilement contrôlée) ;
-*   l'allumage et l'extinction progressive de la lumière, en douceur, peut être réalisée par un module électronique (ex : kit K2657 de Velleman-kit environ 25 Euros TTC).
-
-En 2020 :
-
-* un ordinateur PC avec ports USB et/ou WiFi ;
-* des circuits électroniques d'interface peuvent être réalisés facilement avec Arduino (ou Raspberry Pi) par exemple.
-
-**Quelques précisions :**
-
-Cette solution de supervision offre l'avantage d'être indépendante du système d'alimentation qui peut être classique ou numérique.
-
-Dans mon cas, il faut noter que le réseau est constitué d'une voie unique de longueur assez limitée (12 mètres en boucle) et d'une gare unique. Je souhaite pourtant réaliser des scénarios passant par plusieurs gares. J'ai donc adopté le principe que l'unique gare réelle peut représenter plusieurs gares fictives. Tout scénario passant virtuellement par plusieurs gares boucle par l'unique gare réelle existante sur le réseau. Pour aider les joueurs, l'ordinateur affiche alors le nom de la gare courante, les joueurs ne doivent pas tenir compte du nom inscrit sur le bâtiment de la gare réelle (là encore, l'ordinateur apporte une aide).
-
-Les contacts ILS ne permettant de distinguer de manière simple qu'une seule locomotive, les joueurs conducteurs doivent réaliser le plan prévu au tableau horaire chacun leur tour pour que le programme puisse calculer leur score (cette contrainte n'enlève pas d'intérêt au jeu car plusieurs joueurs sont requis pour exécuter ce type de scénario : un conducteur, un contrôleur pour les aiguillages et un chef de gare). Toutefois, le système reste évolutif car il faut noter que l'utilisation d'un système de reconnaissance de type code à barre à la place des ILS permettrait alors au programme de gérer simultanément plusieurs trains, donc plusieurs joueurs.
+Tout cela s'est déroulé entre 1995 et 2000. Depuis, la technologie permet d'aller beaucoup plus loin et je développe de nouvelles idées dans la continuité de ce concept.
 
 ### Le programme de génération de scénario {#prog_generation}
 
