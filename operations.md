@@ -234,25 +234,25 @@ Il est également possible de réaliser un système entièrement électronique s
 Le programme doit faciliter le déroulement du jeu et laisser les joueurs se concentrer sur les actions ferroviaires.
 Il peut notamment gérer l'affichage du scénario choisi et matérialiser chaque étape.
 
-Laissez moi décrire l'histoire de mon retour d'expérience débuté en 1995 ou j'ai découvert les bénéfices que je pouvais retirer d'un programme de supervision du jeu.
+Laissez moi décrire l'histoire de mon retour d'expérience débuté en 1995 et vous montrer les bénéfices que l'on peut retirer d'un programme de supervision du jeu.
 
-Le premier besoin rencontré a été l'affichage d'un horloge accélérée.
-En effet, mes premières simulations gérées manuellement (sans autre outil qu'un scénario sur une feuille de papier) m'ont permis de découvrir qu'il fallait augmenter artificiellement les longueurs parcourues ce qui correspond à accélérer l'écoulement du temps. Cette pendule doit être visible d'un bout à l'autre du réseau ce qui nécessite un affichage assez gros.
-En 1995, les solutions n'étaient pas nombreuses. J'ai donc décidé de réaliser un programme qui affichait en gros caractères une horloge accélérée sur l'écran d'un vieux PC. J'ai testé plusieurs facteurs d'accélération de 2 à 12.
+Le premier besoin rencontré a été l'affichage d'une horloge accélérée.
+En effet, mes premières simulations gérées manuellement (sans autre outil qu'un scénario sur une feuille de papier) m'ont permis de découvrir qu'il fallait augmenter artificiellement les longueurs parcourues ce qui correspond à accélérer l'écoulement du temps. Cette pendule doit être visible d'un bout à l'autre du réseau.
+En 1995, les solutions qu'on pouvait facilement se procurer n'étaient pas nombreuses. J'ai donc décidé de réaliser un programme qui affichait en gros caractères une horloge accélérée sur l'écran d'un vieux PC. J'ai testé plusieurs facteurs d'accélération de 2 à 12.
 
 Ensuite, le contrôle des temps de passage en gare nécessite une mesure relativement précise mais le temps défile vite et je perdais du temps à noter sur ma feuille les heures de passage pendant que je ne pouvais pas réguler la vitesse de mon train.
-Parfois, je loupais un passage et cela générait un doute sur les heures relevées.
-J'ai donc profité de mon PC pour détecter automatiquement l'heure d'entrée du train en gare à chaque passage. Pour ce faire, je devais indiquer au programme la liste des gares à traverser dans l'ordre chronologique pour qu'il affiche l'heure de passage associée à chaque gare. Le train était détecté avec un ILS en entrée de gare ce qui était alors le plus simple à mettre en oeuvre.
+Parfois, je ratais le contrôle d'un passage et cela générait un doute sur les heures relevées.
+J'ai donc profité de mon PC pour détecter automatiquement l'heure d'entrée du train en gare à chaque passage. Tant qu'à faire, je devais indiquer au programme la liste des gares à traverser dans l'ordre chronologique pour qu'il affiche l'heure de passage associée à chaque gare. Le train était détecté avec un ILS en entrée de gare ce qui était alors le plus simple à mettre en oeuvre.
 
-Mes scénarios prévoyaient des arrêts prolongés dans certaines gares de passage pour échanger des wagons. Ces arrêts étant beaucoup plus longs qu'un simple arrêt voyageur, il me fallait également l'heure de sortie de la gare ce que j'ai facilement réalisé avec un deuxième ILS en sortie de gare.
+Mes scénarios prévoyaient des arrêts prolongés dans certaines gares de passage pour échanger des wagons. Ces arrêts étant beaucoup plus longs qu'un simple arrêt voyageur de 2 minutes, il devenait également utile de noter l'heure de sortie de la gare ce que j'ai facilement réalisé avec un deuxième ILS en sortie de gare.
 
-Mon programme ayant la liste des gares à parcourir et les heures de passage, je pouvais calculer l'avance ou le retard des trains à condition d'ajouter ces horaires dans mes fichiers de scénarios. Puis avec la connaissance des heures d'entrée et de sortie, je pouvais alors calculer la vitesse à l'échelle accélérée de mes trains. Puis je pouvais calculer la distance cumulée parcourue. Puis je pouvais calculer une consommation simulée de carburant.
+Mon programme ayant la liste des gares à parcourir et les heures de passage, je pouvais calculer l'avance ou le retard des trains à condition d'ajouter ces horaires dans mes fichiers de scénarios. Puis avec la connaissance des heures d'entrée et de sortie, je pouvais alors calculer la vitesse à l'échelle accélérée de mes trains. Puis je pouvais calculer la distance cumulée parcourue. Puis je pouvais calculer une consommation simulée de carburant, etc.
 
-Ensuite, j'ai réalisé de multiples simulations pour jouer au train et je me suis bien amusé !
+Ensuite, j'ai réalisé de multiples simulations pour jouer au train, je me suis bien amusé et j'ai validé tout l'intérêt du programme de supervision.
 
-En observant les écarts inévitables entre les scénarios et leur déroulement, j'ai constaté que je faisais parfois des erreurs. J'ai alors eu l'idée de mettre au point un système de score basée sur le respect des règles du jeu fixées au départ : respect des horaires, des vitesses, des mouvements de wagons, etc. Il me suffisait d'exploiter les données déjà présentes dans mon programme et dans les fichiers des scénarios. Cela apportait une sorte de motivation supplémentaire sous la forme d'un challenge et me permettait d'imaginer que plusieurs joueurs pourraient se confronter, comme cela existait avec les jeux d'arcade.
+En observant les écarts inévitables entre les scénarios et leur déroulement, j'ai constaté que je faisais parfois des erreurs ou que je n'étais pas assez efficace pour réaliser les échanges de wagons dans le temps imparti. J'ai alors eu l'idée de mettre au point un système de score basée sur le respect des règles du jeu fixées au départ : respect des horaires, des vitesses, des mouvements de wagons, etc. Il me suffisait d'exploiter les données déjà présentes dans mon programme et dans les fichiers de scénarios. Cela apportait une sorte de motivation supplémentaire sous la forme d'un challenge et me permettait même d'imaginer que plusieurs joueurs parmi mes amis pourraient se confronter, comme cela existait avec les jeux d'arcade.
 
-Ainsi, le programme de supervision est chargé de :
+Ainsi, le programme de supervision peut comporter les fonctions suivantes :
 
 *   afficher l'heure accélérée ;
 *   afficher la gare courante ;
@@ -283,11 +283,17 @@ Lors de mes premières recherches en 1996, je ne trouvais quasiment pas de logic
 
 Je voulais un programme indépendant de la commande des trains, assez général et paramétrable pour s'adapter à différentes situations de jeu. J'étais conforté dans cette idée par la lecture de plusieurs articles présentant des réseaux réalisés par des américains qui organisaient des séances de jeu à grande échelle.
 
-En 1997, j'ai effectivement réalisé un prototype de programme de génération pour me permettre de générer des scénarios pour mon plan de voies. J'ai réalisé ce programme en une dizaine de jours en langage lisp sur mon vieux PC. Ce programme génère deux tableaux : la liste des véhicules avec leurs mouvements horodatés, et la liste chronologique des mouvements. La première liste donne sur une unique page A4 les mêmes informations que les fameux _way bills_ des réseaux américains (feuille de route de chaque wagon). Mes conclusions sur cette expérience sont à ce jour les suivantes : à moins d'être un club organisant fréquemment de nouveaux scénarios dans des conditions changeantes (ex : plan de voies modifiable selon l'agencement de modules), il est plus rapide de calculer ses scénarios avec un outil de saisie tel qu'un traitement de texte ou mieux un tableur que de paramétrer un programme. Le plan de voies du réseau contraignant fortement les possibilités pour les scénarios, dans un premier temps il faut déterminer les types de scénarios possibles et ensuite faire varier les paramètres indépendants du plan de voies (ex : type de trafic, horaires, règles, etc.).
+En 1997, j'ai effectivement réalisé un prototype de programme de génération pour me permettre de générer des scénarios pour mon plan de voies. J'ai réalisé ce programme en une dizaine de jours en langage lisp sur mon vieux PC. Ce programme génère deux tableaux : la liste des véhicules avec leurs mouvements horodatés, et la liste chronologique des mouvements. La première liste donne sur une unique page A4 les mêmes informations que les fameux _way bills_ des réseaux américains (feuille de route de chaque wagon). Mes conclusions sur cette expérience ont été les suivantes : à moins d'être un club organisant fréquemment de nouveaux scénarios dans des conditions changeantes (ex : plan de voies modifiable selon l'agencement de modules), il est plus rapide de calculer ses scénarios avec un outil de saisie tel qu'un traitement de texte ou mieux un tableur que de paramétrer un programme. Le plan de voies du réseau contraignant fortement les possibilités pour les scénarios, dans un premier temps il faut déterminer les types de scénarios possibles et ensuite faire varier les paramètres indépendants du plan de voies (ex : type de trafic, horaires, règles, etc.).
 
-Maintenant, **j'utilise un tableur pour mettre en forme un [tableau horaire général (_timetable_)](#timetable) et des [listes de répartition des wagons (_switch list_)](#switchlist) pour chaque scénario.**
+Depuis, **j'utilise un tableur pour mettre en forme un [tableau horaire général (_timetable_)](#timetable) et des [listes de répartition des wagons (_switch list_)](#switchlist) pour chaque scénario.**
 
 L'intelligence nécessaire pour construire des scénarios pertinents et intéressants avec de nombreux paramètres possibles est difficile à mettre dans un programme de calcul automatique. La réalisation d'un programme personnalisé n'est pas rentable si le nombre de scénarios à réaliser est potentiellement faible. L'utilisation d'un programme existant apporterait un plus à condition qu'il soit suffisamment générique pour s'adapter aux nombreux cas possibles et donc ainsi aux cas qui nous préoccupent. Finalement, l'utilisation d'un tableur constitue peut-être un bon compromis en permettant de réaliser certains calculs (somme des durées, longueurs, poids, calcul de moyennes, etc.) qui facilitent le travail du concepteur et en permettant une mise en page totalement personnalisée.
+
+2025 :
+
+Toutefois, j'ai découvert récemment que de nouvelles solutions sont apparues depuis quelques années. 
+Le module OperationsPro du logiciel JMRI comporte l'intelligence nécessaire pour construire des scénarios variables dont l'objectif est d'écouler un trafic de marchandises, ou de voyageurs, entres les gares et les EP d'un réseau. Le module génère les feuilles destinées au conducteurs et au chef de circulation.
+
 
 ## Les documents pour la simulation {#documents}
 
