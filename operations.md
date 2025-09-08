@@ -229,9 +229,9 @@ La supervision du jeu est plus facile avec l'utilisation d'un ordinateur et d'un
 Cela permet d'automatiser une partie du trafic dans lequel il faut s'intercaler le cas échéant et cela apporte également une aide au déroulement des scénarios et à la surveillance de leur bon déroulement.
 Il est également possible de réaliser un système entièrement électronique sans PC, par exemple avec des cartes Arduino ou Raspberry Pi, mais il n'est pas aussi facilement évolutif.
 
-### Le programme de supervision {#prog_supervision}
+### Simulation {#prog_supervision}
 
-Le programme doit faciliter le déroulement du jeu et laisser les joueurs se concentrer sur les actions ferroviaires.
+Le programme de supervision (ou simulateur) doit faciliter le déroulement du jeu et laisser les joueurs se concentrer sur les actions ferroviaires.
 Il peut notamment gérer l'affichage du scénario choisi et matérialiser chaque étape.
 
 Laissez moi décrire l'histoire de mon retour d'expérience débuté en 1995 et vous montrer les bénéfices que l'on peut retirer d'un programme de supervision du jeu.
@@ -272,7 +272,7 @@ La rubrique [Technos](/techno.md) décrit plus en détail les possibilités de r
 
 Tout cela s'est déroulé entre 1995 et 2000. Depuis, la technologie permet d'aller beaucoup plus loin et je développe de nouvelles idées dans la continuité de ce concept.
 
-### Le programme de génération de scénario {#prog_generation}
+### Génération de scénario {#prog_generation}
 
 Lors de mes premières recherches en 1996, je ne trouvais quasiment pas de logiciel pour générer des scénarios de jeu qui soient indépendants de produits spécifiques tels que, par exemple, les commandes numériques avec interface ordinateur. Ayant les compétences nécessaires, j'ai donc décidé de réaliser mon propre programme pour me faciliter la mise au point de scénarios de jeu, selon des paramètres tels que :
 
