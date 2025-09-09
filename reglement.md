@@ -1,15 +1,21 @@
 ---
 layout: single
-title: Règles
+title: "MODELISME FERROVIAIRE ET SIMULATION"
 permalink: /reglement/
+excerpt: "Règles du Jeu"
 header:
-    image: /assets/images/headerimage.jpeg
+    overlay_image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
 toc_label: "Règles du Jeu"
+toc_sticky: true
 author_profile: false
+read_time: true
 ---
+
+Introduction
+------------
 
 Tous les jeux nécessitent de fixer quelques règles.
 
@@ -21,6 +27,9 @@ Il existe de multiples exemples rendus disponibles sur Internet par des particul
 
 * * *
 
+Exemple
+-------
+
 Règlement standard de la ligne _zéro_  
 
 ![](../images/logo6.png)
@@ -29,8 +38,7 @@ Règles d'exploitation (version 1.0)
 
 DIRECTION REGIONALE DE L'EXPLOITATION
 
-Introduction
-------------
+Introduction :
 
 Les règles exposées dans le présent document doivent être respectées par l'ensemble du personnel, quel que soit son rôle, sous la responsabilité du chef de ligne.
 
