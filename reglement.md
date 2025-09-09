@@ -7,8 +7,19 @@ header:
     image_description: "G1000"
     caption: "Photo Rauletus"
 toc: true
+toc_label: "Règles du Jeu"
 author_profile: false
 ---
+
+Tous les jeux nécessitent de fixer quelques règles.
+
+Les joueurs doivent respecter des règles du jeu que l'on peut déterminer librement au départ.
+Ces règles peuvent reprendre tout ou partie des règles en vigueur à la SNCF ou simplement s'en inspirer.
+
+Un exemple est présenté ci-dessous.
+Il existe de multiples exemples rendus disponibles sur Internet par des particuliers ou des groupes qui pratiquent des simulations d'opérations ferroviaires avec leur réseau modèle.
+
+* * *
 
 Règlement standard de la ligne _zéro_  
 
