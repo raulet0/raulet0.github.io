@@ -2,7 +2,7 @@
 layout: single
 title: "MODELISME FERROVIAIRE ET SIMULATION"
 permalink: /reglement/
-excerpt: "Règles du Jeu"
+excerpt: "Fixer les Règles du Jeu"
 header:
     overlay_image: /assets/images/headerimage.jpeg
     image_description: "G1000"
@@ -161,6 +161,15 @@ Cette liste utilise une désignation des wagons qui permet de les repérer facil
 ### Règles de mouvement à la demande
 
 Les mouvements à la demande sont autorisées par le chef de ligne, qui dispose des données nécessaires à la prise de décision d'engager un train exceptionnel, compte tenu du trafic.
+
+### Respect de la limite de vitesse
+
+Chaque scénario indique une vitesse limite qu'il convient de ne pas dépasser.
+
+### Ravitaillement
+
+Le carburant restant dans la locomotive est indiqué par le simulateur. Chaque conducteur doit ravitailler avant une panne sèche. Le ravitaillement est autorisé à l'arrêt au point de ravitaillement.
+
 
 Instructions techniques
 -----------------------
