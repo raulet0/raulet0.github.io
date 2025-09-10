@@ -16,20 +16,20 @@ read_time: true
 
 Tous les jeux nécessitent de fixer quelques règles.
 
-Introduction
-------------
+Principe
+--------
 
 Les joueurs doivent respecter des règles du jeu que l'on peut déterminer librement au départ.
-Ces règles peuvent reprendre tout ou partie des règles en vigueur à la SNCF ou simplement s'en inspirer.
+Ces règles peuvent reprendre tout ou partie des règles en vigueur dans une compagnie ferroviaire telle que la SNCF ou simplement s'en inspirer.
 
-Le principe est de jouer au train seul ou en groupe et d'y trouver du plaisir !
+Le but poursuivi est de jouer au train, seul ou en groupe, et d'y trouver du plaisir !
 Les attentes peuvent être très variables en fonction du contexte, de la taille du réseau, du matériel roulant, de l'âge des joueurs, du niveau de réalisme recherché, etc.
 La taille et la topologie du réseau sont évidemment des paramètres essentiels car les possibilités qui en découlent peuvent être extrêmement différentes.
 
-Un réseau en double voie dans une grande pièce avec de multiples gares et embranchements autorise probablement à reproduire la réalité avec un certain degré de réalisme.
-Cela peut être recherché par des joueurs passionnés qui souhaitent simuler des trains réels de notre époque ou ayant circulé par le passé. Il reproduisent autant que possible la composition réelle des rames (locomotives, voitures voyageurs, wagons) et peuvent réaliser des scénarios fondés sur les grilles horaires réelles mises en oeuvre. Le respect des horaires, des vitesses, des arrêts en gare, des manoeuvres de changement de locomotives, tout cela fait partie du jeu.
+Un réseau en double voie dans une grande pièce reproduisant plusieurs gares et embranchements autorise probablement à simuler la réalité avec un certain degré de réalisme.
+Cela peut être recherché par des joueurs passionnés qui souhaitent simuler des trains réels de notre époque ou ayant circulé par le passé. Ils reproduisent autant que possible la composition réelle des rames (locomotives, voitures voyageurs, wagons) et peuvent réaliser des scénarios fondés sur les grilles horaires réelles mises en oeuvre. Le respect des horaires, des vitesses, des arrêts en gare, des manoeuvres de changement de locomotives, tout cela fait partie du jeu.
 
-A l'extrême, il existe d'ailleurs des initiatives remarquables telles que des rassemblements de centaines de modules Juniors dans des gymnases qui organisent des sessions consistant à reproduire de façon réaliste des trajets de trains réels dans un immense décor.
+A l'extrême, il existe d'ailleurs des initiatives remarquables partout dans le monde telles que des rassemblements de centaines de modules dans des gymnases qui organisent des sessions consistant à reproduire de façon réaliste des trajets de trains réels dans un immense décor. Nous pouvons citer par exemple en France les rassemblements de modules Junior en HO organisés par l'UAICF ou les regroupements de modules SceNic en N organisés par l'AFAN à l'occasion de grandes expositions.
 Mais même un petit réseau en boucle avec seulement une petite gare en voie unique et un ou deux embranchements particuliers, opéré avec un kit de démarrage en DCC, un smartphone et quelques wagons de marchandises permet de s'amuser, y-compris avec des jeunes enfants ! Et l'ajout de quelques règles simples appliquées à un scénario rend le jeu plus intéressant pour petits et grands.
 
 Entre les extrêmes, toutes les combinaisons sont possibles.
