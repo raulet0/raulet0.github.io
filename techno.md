@@ -7,7 +7,7 @@ header:
     overlay_image: /assets/images/headerimage.jpeg
     image_description: "G1000"
     caption: "Photo Rauletus"
-toc: true
+toc: false
 toc_label: "Technologies"
 toc_sticky: true
 author_profile: false
