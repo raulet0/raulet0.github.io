@@ -222,7 +222,7 @@ J'ai réalisé une station de commande complète très simplement en assemblant 
 * une carte additionnelle Motor Shield
 * une alimentation 18V (5A)
 
-Cette station à une puissance de 2A par défaut (disjoncteur intégré au logiciel DCC-EX). Cela permet de piloter 2 locomotives équipées avec les vieux décodeurs tels que ARNOLD et LENZ qui consomment beaucoup de puissance.
+Cette station à une puissance suffisante pour piloter sans difficulté plusieurs locomotives et des accessoires DCC.
 
 Software :
 
@@ -263,13 +263,6 @@ Des capteurs tels que des ILS ou des détecteurs de présence par consommation d
 Yet Another Railroad Simulator (YARS)
 
 Sans rien perdre des concepts de la version historique de 1998, j'ai développé ce nouveau programme de supervision du jeu (appelé désormais YARS) fondé sur les technologies numériques les plus récentes. La version actuelle (mars 2025) est à considérer comme un premier prototype opérationnel, qui doit évidemment poursuivre son évolution.
-
-Actuellement, YARS s'interface avec le logiciel de pilotage JMRI (Java Model Railroad Interface) de manière à le compléter fonctionnellement. JMRI offre l'avantage de s'interfacer lui-même avec les principales centrales DCC du marché. 
-De plus, il offre également à son niveau une interface et un protocole de communication permettant le pilotage des locomotives et accessoires avec divers moyens de télécommande et notamment des applications sur smartphones et tablettes.
-En utilisant cette interface, j'ai développé facilement mon propre module au sein de YARS pour commander les locomotives dans les situations de jeu ou cela est utile.
-En complément, JMRI affiche facilement l'indispensable horloge accélérée ainsi qu'un synoptique et/ou un tableau de contrôle du réseau.
-YARS disposant de son propre serveur web intégré, il peut afficher en temps-réel les informations utiles au déroulement du jeu dans un navigateur standard, sur un voire plusieurs écrans simultanément.
-
 
 ![Copie d'écran du programme de supervision avec JMRI](../images/yars.png)
 
