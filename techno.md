@@ -39,7 +39,8 @@ Je cherche à utiliser le plus possible de composants prêts à l'emploi afin de
 
 ![Architecture](../images/architecture_globale.jpg)
 
-J'ai décidé de réaliser moi-même une centrale basée sur le logiciel [DCC-EX](https://dcc-ex.com) et la plateforme **Arduino**.
+J'ai décidé d'assembler moi-même une centrale basée sur le logiciel [DCC-EX](https://dcc-ex.com) et la plateforme **Arduino**.
+J'ai conçu et réalisé le programme Simulateur (YARS).
 
 ## Commande digitale DCC
 
@@ -92,9 +93,16 @@ Des capteurs tels que des ILS ou des détecteurs de présence par consommation d
 Pour des réseaux qui le nécessitent, la librairie arduinoCMRI permet de réaliser un noeud C/MRI SMINI avec une carte Arduino.
 Reliée au PC avec un cable USB, JMRI peut ainsi réagir à des changements d'état de boutons et détecteurs et peut comme de nombreux logiciels de cette catégorie actionner des LED et des moteurs d'aiguillage.
 
-Simulateur / Logiciel de supervision du Jeu :
+## Simulateur / Logiciel de supervision du Jeu
 
-Actuellement, le programme YARS s'interface avec le logiciel de pilotage JMRI (Java Model Railroad Interface) de manière à le compléter fonctionnellement. JMRI offre l'avantage de s'interfacer lui-même avec les principales centrales DCC du marché, ainsi que les protocoles de communication standards et peut ainsi constituer une véritable plateforme d'intégration. 
+Yet Another Railroad Simulator (YARS)
+
+Sans rien perdre des concepts de la version historique de 1998, j'ai développé ce nouveau programme de supervision du jeu (appelé désormais YARS) fondé sur les technologies numériques les plus récentes. La version actuelle (mars 2025) est à considérer comme un premier prototype opérationnel, qui doit évidemment poursuivre son évolution.
+
+![Copie d'écran du programme de supervision avec JMRI](../images/yars.png)Yet Another Railroad Simulator (YARS)
+
+Actuellement, le programme YARS s'interface avec le logiciel de pilotage JMRI (Java Model Railroad Interface) de manière à le compléter fonctionnellement.
+JMRI offre l'avantage de s'interfacer lui-même avec les principales centrales DCC du marché, ainsi que les protocoles de communication standards et peut ainsi constituer une véritable plateforme d'intégration. 
 De plus, il offre également à son niveau une interface et un protocole de communication permettant le pilotage des locomotives et accessoires avec divers moyens de télécommande et notamment des applications sur smartphones et tablettes.
 En utilisant cette interface, j'ai développé facilement mon propre module au sein de YARS pour commander les locomotives dans les situations de jeu ou cela est utile (par exemple simuler une panne).
 
@@ -102,5 +110,5 @@ En complément, JMRI affiche facilement l'indispensable horloge accélérée ain
 YARS disposant de son propre serveur web intégré, il peut afficher en temps-réel les informations utiles au déroulement du jeu dans un navigateur standard, sur un voire plusieurs écrans simultanément.
 
 Consultez ces pages qui présentent davantage de détails :
-* Software
 * Hardware
+* Software
