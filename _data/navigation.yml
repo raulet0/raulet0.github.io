@@ -29,13 +29,13 @@ mainleft:
         url: /welcome/
 
 techno:
-  - title: "Hardware"
-    children:
-      - title: "DCC"
-        url: /techno/dcc/
-      - title: "Arduino"
-        url: /techno/arduino/
   - title: "Software"
     children:
       - title: "JMRI"
-        url: /techno/jmri/
+        url: /jmri/
+  - title: "Hardware"
+    children:
+      - title: "Arduino"
+        url: /techno/arduino/
+      - title: "DCC"
+        url: /techno/dcc/

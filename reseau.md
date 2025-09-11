@@ -215,48 +215,13 @@ Les mêmes scénarios de jeu précédents sont utilisables. La généralisation 
 Depuis maintenant plusieurs années, les décodeurs DCC NMRA proposent en standard de nombreuses fonctions annexes (au minimum de F0 à F28) ainsi que la sonorisation des locomotives qui est devenue très utilisée. La commande MRC 2000 ne permettant de piloter qu'une seule fonction auxiliaire, un autre système est nécessaire. J'ai décidé de réaliser moi-même une centrale basée sur le logiciel [DCC-EX](https://dcc-ex.com) et la plateforme **Arduino**.  
 
 
-Hardware :
-
-J'ai réalisé une station de commande complète très simplement en assemblant :
-* une carte Arduino Mega 2560
-* une carte additionnelle Motor Shield
-* une alimentation 18V (5A)
-
-Cette station à une puissance suffisante pour piloter sans difficulté plusieurs locomotives et des accessoires DCC.
-
-Software :
-
-* ordinateur standard (PC ou Mac) :
-    * connecté à la carte Arduino Mega 2560 avec un cable USB (5V et données)
-* logiciel open source DCC-EX EX-CommandStation pour Arduino (C++)
-* logiciel open source IDE Arduino :
-    * initialisation de la carte Arduino
-    * Serial Monitor pour piloter la station en utilisant l'API
-
-Pour être compatible avec les anciens décodeurs ARNOLD, il faut utiliser le mode SPEED 28.
-
 ### Pilotage
 
 Le pilotage avec les commandes de l'API dans le Serial Monitor n'est pas conçu pour le jeu.
-J'utilise principalement le logiciel open source JMRI (Java Model Railroad Interface) avec la configuration suivante :
-* ordinateur standard (PC ou Mac) :
-    * connecté à la carte Arduino Mega 2560 avec un cable USB (5V et données)
-    * connecté au réseau local Wifi
-* logiciel JMRI DecoderPro ou PanelPro
-* pour la commande mobile de type "walk-around" en Wifi :
-    * serveur JMRI WiThrottle
-    * application mobile open source Engine Driver pour Android
-    * application mobile WiThrottleLite pour iOS 
+Un outil plus évolué est nécessaire.
+J'utilise principalement le logiciel open source JMRI (Java Model Railroad Interface).
 
 JMRI permet la gestion complète d'un réseau depuis la programmation des décodeurs DCC jusqu'au pilotage des itinéraires, en passant par les cantons, les signaux, les aiguillages, etc.
-Il gère notamment ici pour mes besoins :
-* une horloge accélérée
-* des scripts d'automatisation tels que l'aller/retour d'une locomotive
-* des interfaces natives avec DCC-EX et C/MRI
-* des panneaux de contrôle et synoptiques du réseau
-* des interfaces techniques (APIs) pour l'intégrer avec d'autres logiciels
-
-Des capteurs tels que des ILS ou des détecteurs de présence par consommation de courant (j'utilise des détecteurs 5556 de Stock87) peuvent être reliés à une carte Arduino. Pour des réseaux qui le nécessitent, la librairie arduinoCMRI permet de réaliser un noeud C/MRI SMINI avec une carte Arduino. Reliée au PC avec un cable USB, JMRI peut ainsi réagir à des changements d'état de boutons et détecteurs et peut actionner des LED et des moteurs d'aiguillage.
 
 ### Programme de supervision
 

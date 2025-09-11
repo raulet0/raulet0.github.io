@@ -19,7 +19,7 @@ sidebar:
 
 Cette rubrique présente des solutions que j'utilise pour mes simulations.
 
-Ces solutions se complètent et doivent donc être intelligemment assemblées sous la forme d'une architecture d'ensemble.
+Ces solutions se complètent et doivent donc être intelligemment assemblées sous la forme d'une architecture cohérente.
 
 Les principes qui guident mes choix sont les suivants :
 * fiabilité des solutions et de l'architecture d'ensemble
@@ -35,12 +35,12 @@ Architecture
 ------------
 
 Les principaux composants de ma solution à date sont présentés dans le schéma ci-dessous.
-Je cherche à utiliser le plus possible de composants prêts à l'emploi afin de développer le minimum de choses moi-même.
+Je cherche à utiliser le plus possible de composants prêts à l'emploi afin de développer moi-même le minimum de choses.
 
 ![Architecture](../images/architecture_globale.jpg)
 
 J'ai décidé d'assembler moi-même une centrale basée sur le logiciel [DCC-EX](https://dcc-ex.com) et la plateforme **Arduino**.
-J'ai conçu et réalisé le programme Simulateur (YARS).
+J'ai également conçu et réalisé le programme Simulateur (YARS).
 
 ## Commande digitale DCC
 
@@ -66,19 +66,13 @@ Pour être compatible avec les anciens décodeurs ARNOLD, il faut utiliser le mo
 
 ## Logiciel de pilotage de réseau ferroviaire
 
-Le pilotage avec les commandes de l'API dans le Serial Monitor n'est pas conçu pour le jeu.
-J'utilise principalement le logiciel open source JMRI (Java Model Railroad Interface) avec la configuration suivante :
-* ordinateur standard (PC ou Mac) :
-    * connecté à la carte Arduino Mega 2560 avec un cable USB (5V et données)
-    * connecté au réseau local Wifi
-* logiciel JMRI DecoderPro ou PanelPro
-* pour la commande mobile de type "walk-around" en Wifi :
-    * serveur JMRI WiThrottle
-    * application mobile open source Engine Driver pour Android
-    * application mobile WiThrottleLite pour iOS 
+Le pilotage avec les commandes de l'API dans le Serial Monitor de l'IDE Arduino n'est pas conçu pour le jeu.
 
+Une bonne idée est alors d'utiliser un logiciel de pilotage de réseau ferroviaire capable de s'interconecter avec la commande digitale.
+J'utilise le logiciel open source JMRI (Java Model Railroad Interface).
 JMRI permet la gestion complète d'un réseau depuis la programmation des décodeurs DCC jusqu'au pilotage des itinéraires, en passant par les cantons, les signaux, les aiguillages, etc.
-Il gère notamment ici pour mes besoins :
+
+JMRI gère notamment ici pour mes besoins :
 * une horloge accélérée
 * des scripts d'automatisation tels que l'aller/retour d'une locomotive pour simuler un trafic minimum
 * des interfaces natives avec DCC-EX
@@ -89,15 +83,25 @@ Il gère notamment ici pour mes besoins :
 * les itinéraires des trains et la réservation des cantons
 * les mouvements de wagons
 
-Des capteurs tels que des ILS ou des détecteurs de présence par consommation de courant (j'utilise des détecteurs 5556 de Stock87) peuvent être reliés à une carte Arduino.
-Pour des réseaux qui le nécessitent, la librairie arduinoCMRI permet de réaliser un noeud C/MRI SMINI avec une carte Arduino.
-Reliée au PC avec un cable USB, JMRI peut ainsi réagir à des changements d'état de boutons et détecteurs et peut comme de nombreux logiciels de cette catégorie actionner des LED et des moteurs d'aiguillage.
+Des capteurs tels que des ILS ou des détecteurs de présence par consommation de courant peuvent être reliés à une carte Arduino (j'utilise des détecteurs 5556 de [Stock87](https://www.stock87.fr)). Cette carte Arduino peut être la même que celle qui supporte le programme DCC-EX EX-CommandStation car cette centrale de commande intègre la capacité de gérer des capteurs (sensors).
+Pour des réseaux qui le nécessitent, la librairie arduinoCMRI permet de réaliser un noeud C/MRI SMINI avec une carte Arduino dédiée.
+Reliée au PC avec un cable USB, JMRI peut ainsi réagir à des changements d'état de boutons et détecteurs et peut comme de nombreux logiciels de cette catégorie actionner par exemple des LED, des signaux lumineux et des moteurs d'aiguillage.
+
+J'utilise JMRI avec la configuration suivante :
+* ordinateur standard (PC ou Mac) :
+    * connecté à la carte Arduino Mega 2560 avec un cable USB (5V et données)
+    * connecté au réseau local Wifi
+* logiciel JMRI DecoderPro ou PanelPro
+* pour la commande mobile de type "walk-around" en Wifi :
+    * serveur JMRI WiThrottle
+    * application mobile open source Engine Driver pour Android
+    * application mobile WiThrottleLite pour iOS 
 
 ## Simulateur / Logiciel de supervision du Jeu
 
 Yet Another Railroad Simulator (YARS)
 
-Sans rien perdre des concepts de la version historique de 1998, j'ai développé ce nouveau programme de supervision du jeu (appelé désormais YARS) fondé sur les technologies numériques les plus récentes. La version actuelle (mars 2025) est à considérer comme un premier prototype opérationnel, qui doit évidemment poursuivre son évolution.
+Sans rien perdre des concepts de la version historique de 1998 (présentée dans la rubrique dédiée au [Réseaux](/reseau.md)), j'ai développé ce nouveau programme de supervision du jeu (appelé désormais YARS) fondé sur les technologies numériques les plus récentes. La version actuelle (mars 2025) est à considérer comme un premier prototype opérationnel, qui doit évidemment poursuivre son évolution.
 
 ![Copie d'écran du programme de supervision avec JMRI](../images/yars.png)Yet Another Railroad Simulator (YARS)
 
