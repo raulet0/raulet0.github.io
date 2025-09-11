@@ -11,6 +11,7 @@ toc: false
 toc_label: "Technologies"
 toc_sticky: true
 author_profile: false
+read_time: true
 sidebar:
     nav:
         - main
