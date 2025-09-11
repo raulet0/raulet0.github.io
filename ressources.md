@@ -24,15 +24,16 @@ author_profile: false
 
 **REGLES DU JEU ET EXPLOITATION :**
 
-*   **[The Layout Design Primer](http://ldsig.org)** - The Layout Design Primer is a World Wide Web Publication of the [Layout Design Special Interest Group](http://ldsig.org) of the [N.M.R.A.](https://www.nmra.org) (**N**ational **M**odel **R**ailroad **A**ssociation)
 *   **[Yosemite Valley Railroad Co.](https://www.yosemitevalleyrr.com)** - Exploitation réaliste d'un réseau, séances de jeu (résumé et photos), description des règles et formulaires, etc.
 *   **[New York Central System](https://www.nycvd.org)** - Op Sessions, règles, formulaires, etc.
+*   **[The Layout Design Primer](http://ldsig.org)** - The Layout Design Primer is a World Wide Web Publication of the [Layout Design Special Interest Group](http://ldsig.org) of the [N.M.R.A.](https://www.nmra.org) (**N**ational **M**odel **R**ailroad **A**ssociation)
 
 **ELECTRONIQUE / LOGICIEL :**
 
 *   **[Lenz GmbH DIGITAL](https://www.lenz-elektronik.de)** - Télécommande digitale et décodeurs
 *   **[Model Rectifier Corporation](https://www.modelrectifier.com)** - MRC 2000, Télécommande digitale et décodeurs
 *   **[CONRAD](https://www.conrad.fr)** - Vente par correspondance de composants et de cartes électroniques
+*   **[STOCK87](https://www.stock87.fr)** - Vente par correspondance de produits pour le modélisme
 *   **[GAUGEMASTER](https://www.gaugemasterretail.com)** - Commandes avec simulation d'inertie et asservissement
 *   **[ESU](https://www.esu.eu)** - Equipements DCC (décodeurs LokPilot, LokSound)
 *   **[LOCODUINO](https://locoduino.org)** - Arduino pour modélisme ferroviaire

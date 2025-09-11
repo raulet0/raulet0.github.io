@@ -68,7 +68,7 @@ Pour être compatible avec les anciens décodeurs ARNOLD, il faut utiliser le mo
 
 Le pilotage avec les commandes de l'API dans le Serial Monitor de l'IDE Arduino n'est pas conçu pour le jeu.
 
-Une bonne idée est alors d'utiliser un logiciel de pilotage de réseau ferroviaire capable de s'interconecter avec la commande digitale.
+Une bonne idée est alors d'utiliser un logiciel de pilotage de réseau ferroviaire capable de s'interconnecter avec la commande digitale.
 J'utilise le logiciel open source JMRI (Java Model Railroad Interface).
 JMRI permet la gestion complète d'un réseau depuis la programmation des décodeurs DCC jusqu'au pilotage des itinéraires, en passant par les cantons, les signaux, les aiguillages, etc.
 
