@@ -4,8 +4,10 @@ title: Photos
 permalink: /photos/
 ---
 
+## La ligne 0
 
-Voici quelques photos de mon réseau, dans l'ordre chronologique.
+Voici quelques photos de mon réseau en 1998-2000, dans l'ordre chronologique.
+Le réseau a ensuite été démantelé suite à déménagement.
 
   
 ![Vue de face de la future gare sur une pré-maquette (début 1998)](../photos/garev0.jpg)  

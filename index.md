@@ -4,7 +4,7 @@
 
 layout: single
 classes: wide
-title: "MODELISME FERROVIAIRE ET SIMULATION"
+title: "Modélisme ferroviaire et simulation"
 header:
     image: /assets/images/headerimage.jpeg
     image_description: "G1000"
@@ -67,7 +67,7 @@ C'est parti.
 [règles générales, instructions techniques](reglement)
 
 **[Réseaux](/reseau)**  
-[thème](/reseau), [commande](/reseau/#commande), [supervision](/reseau/#supervision)
+[ligne 0](/reseau/#zero), [ligne miniZéro](/reseau/#minizero), [ligne 1](/reseau/#un)
 
 **[Photos](/photos)**  
 [chronologie](/photos)
