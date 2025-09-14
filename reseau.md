@@ -13,12 +13,7 @@ toc_sticky: true
 author_profile: false
 read_time: true
 sidebar:
-  - title: "Ligne 0"
-    image: /images/logo6.png
-    image_alt: "logo"
-    text: "Un réseau pour la simulation"
-  - title: "Ligne 1"
-    text: "Une extension !"
+    nav: "mainleft"
 ---
 
 <!--

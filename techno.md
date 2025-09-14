@@ -14,7 +14,7 @@ author_profile: false
 read_time: true
 sidebar:
     nav:
-        - main
+        - mainleft
         - techno
 ---
 

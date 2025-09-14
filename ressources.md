@@ -33,7 +33,7 @@ author_profile: false
 *   **[Lenz GmbH DIGITAL](https://www.lenz-elektronik.de)** - Télécommande digitale et décodeurs
 *   **[Model Rectifier Corporation](https://www.modelrectifier.com)** - MRC 2000, Télécommande digitale et décodeurs
 *   **[CONRAD](https://www.conrad.fr)** - Vente par correspondance de composants et de cartes électroniques
-*   **[STOCK87](https://www.stock87.fr)** - Vente par correspondance de produits pour le modélisme
+*   **[STOCK87](https://www.stock87.fr)** - Vente par correspondance Electronique & Modélisme
 *   **[GAUGEMASTER](https://www.gaugemasterretail.com)** - Commandes avec simulation d'inertie et asservissement
 *   **[ESU](https://www.esu.eu)** - Equipements DCC (décodeurs LokPilot, LokSound)
 *   **[LOCODUINO](https://locoduino.org)** - Arduino pour modélisme ferroviaire

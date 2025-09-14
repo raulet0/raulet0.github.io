@@ -67,7 +67,7 @@ C'est parti.
 [règles générales, instructions techniques](reglement)
 
 **[Réseaux](/reseau)**  
-[ligne 0](/reseau/#zero), [ligne miniZéro](/reseau/#minizero), [ligne 1](/reseau/#un)
+[ligne Zéro](/reseau/#zero), [ligne miniZéro](/reseau/#minizero), [ligne 1](/reseau/#un)
 
 **[Photos](/photos)**  
 [chronologie](/photos)

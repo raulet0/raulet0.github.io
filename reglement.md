@@ -12,6 +12,8 @@ toc_label: "Règles du Jeu"
 toc_sticky: true
 author_profile: false
 read_time: true
+sidebar:
+    nav: "mainleft"
 ---
 
 Tous les jeux nécessitent de fixer quelques règles.
