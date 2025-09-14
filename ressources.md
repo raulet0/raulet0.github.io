@@ -10,6 +10,8 @@ header:
     image_description: "G1000"
     caption: "Photo Rauletus"
 author_profile: false
+sidebar:
+    nav: "mainleft"
 ---
 
 **Ressources :**
