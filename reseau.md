@@ -217,7 +217,7 @@ J'utilise principalement le logiciel open source JMRI (Java Model Railroad Inter
 
 JMRI permet la gestion complète d'un réseau depuis la programmation des décodeurs DCC jusqu'au pilotage des itinéraires, en passant par les cantons, les signaux, les aiguillages, etc.
 
-### Supervision 
+### Supervision JMRI
 
 En 2025, la technologie offre une diversité de solutions.
 J'utilise :
@@ -226,9 +226,11 @@ J'utilise :
 * un port USB
 * le WiFi de mon domicile
 * un smartphone en guise de télécommande
+* le logiciel JMRI en interface 
 
 
-#### Programme
+
+#### Programme YARS
 
 Yet Another Railroad Simulator (YARS)
 
