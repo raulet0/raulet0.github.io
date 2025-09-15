@@ -55,7 +55,7 @@ Plan du réseau : 4,60 mètres x 2,60 mètres
 
 [Cliquez ici pour voir des photos de ce réseau](/photos/)
 
-### La méthodologie de réalisation
+### Méthodologie
 
 Les idées clés de ma méthodologie pour ce réseau sont les suivantes :
 
@@ -64,7 +64,7 @@ Les idées clés de ma méthodologie pour ce réseau sont les suivantes :
 *   réaliser puis améliorer chaque module en plusieurs étapes, par versions successives ;
 *   réaliser rapidement une version simple du réseau, permettant de tester puis de valider le concept de jeu.
 
-### La mise en oeuvre de l'exploitation
+### Exploitabilité
 
 Pour mon réseau, j'ai défini les critères suivants :
 
@@ -77,7 +77,7 @@ Pour mon réseau, j'ai défini les critères suivants :
 *   système de numérotation des trains et wagons ;
 *   gestion des wagons ouverts pleins ou vides.
 
-### L'infrastructure
+### Infrastructure
 
 L'infrastructure de mon réseau est décrite par les caractéristiques suivantes :
 
@@ -95,17 +95,13 @@ L'infrastructure de mon réseau est décrite par les caractéristiques suivantes
 *   longueur des voies de garage et à quai : 1,20 m ;
 *   pas de voie et de bâtiment entre les zones de triage et les opérateurs.
 
-La commande de mon réseau
--------------------------
-
-### Commande traditionnelle {#commande}
+### Commande analogique {#commande}
 
 J'ai commencé par utiliser deux commandes analogiques traditionnelles : d'abord une commande GMC-UF de GAUGEMASTER achetée en 1990 (et toujours en vente en 2023), c'est un modèle avec asservissement de vitesse très efficace notamment pour les vitesses réduites, ensuite une [commande "maison" avec simulation d'inertie](../images/regula.gif) associée à un générateur 50 khz "maison" pour l'éclairage constant des feux des locomotives.
 
 ![](../images/synoptique_multiplexeur.jpg)
 
 La ligne _zéro_ est découpée en trois zones électriques. Un répartiteur permet d'affecter une zone à une commande : il est constitué d'un pupitre muni en façade de commutateurs rotatifs positionnés par rapport au synoptique du réseau (à tout moment, chaque zone ne peut être commandée que par une seule commande).  
- 
 
 ### Commande digitale
 
@@ -156,7 +152,7 @@ Les contacts ILS ne permettant de distinguer de manière simple qu'une seule loc
 La loco du train supervisé ou un wagon est équipé d'un petit aimant permettant d'activer les contacts ILS. Dans cette version de la ligne _zéro_, un contact ILS est disposé en entrée de la gare (Est), un autre en sortie (Ouest).
  
 
-#### Programme de supervision 
+#### Programme
 
 Mon programme de supervision temps-réel affiche l'heure courante accélérée, détecte les changements d'état des contacts ILS, et affiche en entrée et en sortie de gare :
 *   la gare virtuelle courante (entrée, sortie)
@@ -166,11 +162,14 @@ Mon programme de supervision temps-réel affiche l'heure courante accélérée, 
 *   la quantité de carburant restante (en litres)
 *   la distance parcourue depuis la gare de départ du scénario
 
+En 1998, le programme de supervision fonctionnait sur un PC MS-DOS :
+
 
 ![Copie d'écran du programme de supervision](../images/horloge51.gif)
 
 
-La commande du programme de supervision s'effectue principalement à l'aide des touches de fonction du clavier, aucune saisie manuelle n'est nécessaire pendant le jeu :
+La commande du programme de supervision s'effectuait principalement à l'aide des touches de fonction du clavier.
+Aucune saisie manuelle nécessaire n'est pendant le jeu :
 
 *   F1 : **Pause**, permet éventuellement de stopper momentanément l'horloge accélérée
 *   F2 : **Raz**, permet de recommencer le scénario courant au départ
@@ -189,9 +188,9 @@ Plusieurs scénarios différents peuvent être exécutés par le programme. Au d
 *   **Vitesse maximum autorisée** : le dépassement de la vitesse maximum autorisée sur la ligne retire 5 points à chaque contrôle de la vitesse du train, c'est-à-dire en entrée et en sortie de gare. Ainsi, le fait de "trainer" au début du scénario et "accélérer" ensuite pour rattraper son retard peut être une stratégie pénalisante si cela entraîne le dépassement de la vitesse maximum.
 *   **Carburant** : enfin, il ne faut pas tomber en panne sèche !
 
-Cet algorithme de calcul du score constitue un premier essai, il doit être amélioré. Déjà, le jeu est intéressant car la valeur courante du score permet d'ajuster le comportement du conducteur dans le but de ne pas avoir de pénalité trop importante, en tout cas supérieure au gain obtenu à chaque passage en gare. A titre indicatif, avec mon [scénario n°1](/operations/#documents), le meilleur score que j'ai obtenu est de 118.
+Cet algorithme de calcul du score constitue un premier essai. Déjà, le jeu est intéressant car la valeur courante du score permet d'ajuster le comportement du conducteur dans le but de ne pas avoir de pénalité trop importante, en tout cas supérieure au gain obtenu à chaque passage en gare. A titre indicatif, avec mon [scénario n°1](/operations/#documents), le meilleur score que j'ai obtenu est de 118.
 
-J'ajouterai ensuite d'autres équipements sur le réseau (signaux lumineux, autres capteurs) et d'autres fonctions au programme de supervision pour exploiter ces équipements et en tenir compte dans le score (je progresse par petites étapes pour valider les concepts progressivement).  
+A ce stade, il faut ajouter ensuite d'autres équipements sur le réseau (signaux lumineux, autres capteurs) et d'autres fonctions au programme de supervision pour exploiter ces équipements et en tenir compte dans le score.
 
 ## La ligne miniZéro (2022-2025) {#minizero}
 
@@ -218,7 +217,9 @@ J'utilise principalement le logiciel open source JMRI (Java Model Railroad Inter
 
 JMRI permet la gestion complète d'un réseau depuis la programmation des décodeurs DCC jusqu'au pilotage des itinéraires, en passant par les cantons, les signaux, les aiguillages, etc.
 
-### Programme de supervision
+### Supervision 
+
+#### Programme
 
 Yet Another Railroad Simulator (YARS)
 
