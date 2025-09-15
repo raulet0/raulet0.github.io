@@ -229,7 +229,7 @@ Sans rien perdre des concepts de la version historique de 1998, j'ai développé
 
 #### Scénarios
 
-De multiples scénarios sont possibles et sont décrits chacun par un fichier décrivant la liste des gares à parcourir, les horaires de passage, la vitesse maximum autorisée sur la ligne, etc.
+De multiples scénarios sont possibles et sont définis chacun par un fichier décrivant la liste des gares à parcourir, les horaires de passage, la vitesse maximum autorisée sur la ligne, etc.
 
 #### Calcul du score
 
