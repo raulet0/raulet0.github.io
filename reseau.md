@@ -169,7 +169,7 @@ En 1998, le programme de supervision fonctionnait sur un PC MS-DOS :
 
 
 La commande du programme de supervision s'effectuait principalement à l'aide des touches de fonction du clavier.
-Aucune saisie manuelle nécessaire n'est pendant le jeu :
+Aucune saisie manuelle n'est nécessaire pendant le jeu :
 
 *   F1 : **Pause**, permet éventuellement de stopper momentanément l'horloge accélérée
 *   F2 : **Raz**, permet de recommencer le scénario courant au départ
@@ -218,6 +218,15 @@ J'utilise principalement le logiciel open source JMRI (Java Model Railroad Inter
 JMRI permet la gestion complète d'un réseau depuis la programmation des décodeurs DCC jusqu'au pilotage des itinéraires, en passant par les cantons, les signaux, les aiguillages, etc.
 
 ### Supervision 
+
+En 2025, la technologie offre une diversité de solutions.
+J'utilise :
+* un Mac portable
+* un écran secondaire facultatif 
+* un port USB
+* le WiFi de mon domicile
+* un smartphone en guise de télécommande
+
 
 #### Programme
 
