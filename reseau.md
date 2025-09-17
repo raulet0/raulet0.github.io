@@ -119,6 +119,8 @@ J'ai réalisé moi-même un boîtier avec un transformateur d'alimentation pour 
 
 La commande MRC 2000 ne s'interface pas avec un ordinateur. Je ne peux donc pas utiliser un ordinateur pour piloter un train automatiquement.
 
+Il faut mentionner que tout ce matériel (MRC, LENZ et ARNOLD) est toujours fonctionnel en 2025 !
+
 ### Supervision {#supervision}
 
 En 1998 :
@@ -140,12 +142,6 @@ Cette solution de supervision offre l'avantage d'être indépendante du système
 Dans mon cas, il faut noter que le réseau était constitué d'une voie unique de longueur assez limitée (12 mètres en boucle) et d'une gare unique. Je souhaite pourtant réaliser des scénarios passant par plusieurs gares. J'ai donc adopté le principe que l'unique gare réelle peut représenter plusieurs gares fictives. Bien entendu, il faut faire preuve d'imagination mais l'imagination est de toute manière une composante essentielle du jeu ! Tout scénario passant virtuellement par plusieurs gares boucle par l'unique gare réelle existante sur le réseau. Pour aider les joueurs, l'ordinateur affiche alors le nom de la gare courante, les joueurs ne doivent pas tenir compte du nom inscrit sur le bâtiment de la gare réelle (là encore, l'ordinateur apporte une aide).
 
 Les contacts ILS ne permettant de distinguer de manière simple qu'une seule locomotive, les joueurs conducteurs doivent réaliser le plan prévu au tableau horaire chacun leur tour pour que le programme puisse calculer leur score (cette contrainte n'enlève pas d'intérêt au jeu car plusieurs joueurs sont requis pour exécuter ce type de scénario : un conducteur, un contrôleur pour les aiguillages et un chef de gare). Toutefois, le système reste évolutif car il faut noter que l'utilisation d'un système de reconnaissance de type code à barre à la place des ILS permettrait alors au programme de gérer simultanément plusieurs trains, donc plusieurs joueurs.
-
-
-
-
-
-
 
 
 ![Photo du PC de supervision](../photos/victor1.jpg)
@@ -208,14 +204,13 @@ Les mêmes scénarios de jeu précédents sont utilisables. La généralisation 
 
 2022 : Arduino / DCC-EX
 
-Depuis maintenant plusieurs années, les décodeurs DCC NMRA proposent en standard de nombreuses fonctions annexes (au minimum de F0 à F28) ainsi que la sonorisation des locomotives qui est devenue très utilisée. La commande MRC 2000 ne permettant de piloter qu'une seule fonction auxiliaire, un autre système est nécessaire. J'ai décidé de réaliser moi-même une centrale basée sur le logiciel [DCC-EX](https://dcc-ex.com) et la plateforme **Arduino**.  
-
+Depuis maintenant plusieurs années, les décodeurs DCC NMRA proposent en standard de nombreuses fonctions annexes (au minimum de F0 à F28) ainsi que la sonorisation des locomotives qui est devenue très utilisée. La commande MRC 2000 ne permettant de piloter qu'une seule fonction auxiliaire, un autre système est nécessaire. J'ai décidé de réaliser moi-même une centrale basée sur le logiciel [DCC-EX](https://dcc-ex.com) et la plateforme **Arduino**.
 
 ### Pilotage
 
-Le pilotage avec les commandes de l'API dans le Serial Monitor n'est pas conçu pour le jeu.
+Le pilotage avec les commandes de l'API dans le Serial Monitor de l'IDE Arduino n'est pas conçu pour le jeu.
 Un outil plus évolué est nécessaire.
-J'utilise principalement le logiciel open source JMRI (Java Model Railroad Interface).
+J'utilise principalement le logiciel open source [JMRI (Java Model Railroad Interface)](https://www.jmri.org).
 
 JMRI permet la gestion complète d'un réseau depuis la programmation des décodeurs DCC jusqu'au pilotage des itinéraires, en passant par les cantons, les signaux, les aiguillages, etc.
 
