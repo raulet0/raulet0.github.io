@@ -251,7 +251,7 @@ Les règles du jeu doivent être respectées, le score est calculé ainsi (versi
     * Feux allumés : +100 points
     * Feux éteints par la suite : les 100 points sont perdus, il n'est pas possible de gagner plusieurs fois 100 points en allumant puis en éteignant les feux de la locomotive.
     * Klaxon (F2) en entrant dans la gare : +10 points à chaque coup de klaxon.
-* **Carburant** : Une panne de fuel est éliminatoire et le scénario est automatiquement terminé (la locomotive s'arrête toute seule). Il n'est pas possible de ravitailler en roulant, la locomotive doit être à l'arrêt en gare (sachant que l'arrêt en pleine ligne est interdit).
+* **Carburant** : Une panne de fuel est éliminatoire et le scénario est automatiquement terminé (la locomotive s'arrête toute seule). En l'absence d'un point de ravitaillement disponible (dépôt de locomotives, station fuel), on peut simplifier la règle : la locomotive doit être à l'arrêt en gare (le programme ne permet pas de ravitailler en roulant et  l'arrêt en pleine ligne est interdit).
 
 Mon meilleur score est 230 points avec le scénario n°1 allant de Gare du Lion à Melan.
 
