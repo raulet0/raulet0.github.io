@@ -267,8 +267,8 @@ Le but du jeu est de recevoir un train et de délivrer avec un locotracteur des 
 ![Ligne 1](../images/ligne1.jpg)
 
 Une difficulté est de contrôler le respect des règles.
-Il faut capturer les commandes digitales envoyées au locotracteur.
-Il faut aussi vérifier la bonne position des wagons.
+Il faut capturer toutes les commandes digitales envoyées au locotracteur, ce que mon programme YARS sait déjà faire, puis il faut définir et programmer les règles spécifiques de calcul du score. 
+Il faut aussi vérifier la bonne position des wagons de manière assez précise. J'envisage une technologie particulière pour ce faire. 
 
 Remarque :
 Les signaux lumineux doivent être visibles du joueur en toute circonstance pour qu'il puisse les respecter.
