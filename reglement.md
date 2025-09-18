@@ -18,13 +18,21 @@ sidebar:
 
 Tous les jeux nécessitent de fixer quelques règles.
 
-Principe
---------
+But du jeu
+----------
+
+Dérouler un scénario consistant à simuler l'exploitation des trains d'une compagnie ferroviaire.
+Cela peut être de conduire un train de voyageurs d'une origine à une destination en respectant la grille horaire.
+Mais cela peut être aussi de conduire un train de marchandises et de déservir ou collecter des wagons auprès des entreprises raccordées le long du trajet d'une origine à une destination.
+Plus généralement, cela peut être toute combinaison de trains et de mouvements de voyageurs et de marchandises simulant la réalité du transport ferroviaire.
+
+Principe des règles du jeu
+--------------------------
 
 Les joueurs doivent respecter des règles du jeu que l'on peut déterminer librement au départ.
 Ces règles peuvent reprendre tout ou partie des règles en vigueur dans une compagnie ferroviaire telle que la SNCF ou simplement s'en inspirer.
 
-Le but poursuivi est de jouer au train, seul ou en groupe, et d'y trouver du plaisir !
+Le but poursuivi est de jouer au train, seul ou en groupe, et de s'amuser !
 Les attentes peuvent être très variables en fonction du contexte, de la taille du réseau, du matériel roulant, de l'âge des joueurs, du niveau de réalisme recherché, etc.
 La taille et la topologie du réseau sont évidemment des paramètres essentiels car les possibilités qui en découlent peuvent être extrêmement différentes.
 
@@ -206,3 +214,18 @@ Le retournement des machines, voitures et wagons doit être effectué au triage 
 ### Protections électriques
 
 Les transformateurs d'alimentation des voies sont protégés contre les courts circuits pouvant se produire à la suite d'un déraillement ou d'un positionnement erroné des interrupteurs. En cas de court circuit, les voyants rouges correspondants sur les transformateurs s'allument. Le chef de ligne doit être prévenu pour remettre les alimentations en état de fonctionnement.  
+
+Score
+-----
+
+Pour aider à mesurer le respect des différentes règles, une note sous la forme d'un score en points est établie de la manière suivante.
+
+| Condition | Points |
+|-----------|--------|
+| entrée en gare | +5 pts |
+| sortie de la gare | +5 pts |
+| avance ou retard sur l'heure prévue | -1 pt par minute d'écart après 2 minutes de tolérance |
+| vitesse excessive | -1 pt par km/h au delà de la vitesse limite autorisée |
+| Feux allumés | +100 pts |
+| Panne de carburant | éliminatoire |
+
