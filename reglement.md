@@ -218,7 +218,8 @@ Les transformateurs d'alimentation des voies sont protégés contre les courts c
 Score
 -----
 
-Pour aider à mesurer le respect des différentes règles, une note sous la forme d'un score en points est établie de la manière suivante.
+Pour aider à mesurer le respect des différentes règles/contraintes, une note sous la forme d'un score en points est établie de la manière suivante.
+Cela permet de voir les progrès réalisés d'une simulation à une autre pour un même scénario.
 
 | Condition | Points |
 |-----------|--------|
