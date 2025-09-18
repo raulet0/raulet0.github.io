@@ -218,15 +218,19 @@ Les transformateurs d'alimentation des voies sont protégés contre les courts c
 Score
 -----
 
-Pour aider à mesurer le respect des différentes règles/contraintes, une note sous la forme d'un score en points est établie de la manière suivante.
-Cela permet de voir les progrès réalisés d'une simulation à une autre pour un même scénario.
+Pour aider à mesurer le respect des différentes règles/contraintes,
+et voir les progrès réalisés d'une simulation à une autre pour un même scénario,
+une note sous la forme d'un score en points est établie par le simulateur de la manière suivante :
 
 | Condition | Points |
 |-----------|--------|
-| entrée en gare | +5 pts |
-| sortie de la gare | +5 pts |
-| avance ou retard sur l'heure prévue | -1 pt par minute d'écart après 2 minutes de tolérance |
-| vitesse excessive | -1 pt par km/h au delà de la vitesse limite autorisée |
+| Entrée en gare prévue par le scénario | +5 pts |
+| Sortie de la gare | +5 pts |
+| Avance ou retard sur l'heure prévue | -1 pt par minute d'écart après 2 minutes de tolérance |
+| Consigne de vitesse  | -1 pt par km/h au delà de la vitesse limite autorisée |
 | Feux allumés | +100 pts |
+| Klaxon en entrée de gare | +10 pts |
 | Panne de carburant | éliminatoire |
+| Wagon déposé à l'endroit prévu | +5 pts |
+| Wagon collecté comme prévu | +5 pts |
 
