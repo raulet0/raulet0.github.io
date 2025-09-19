@@ -43,7 +43,7 @@ C'est parti.
 [sites, bâtiments, trains](/operations/#definitions)
 
 **[Rôles](/operations/#roles)**  
-[conducteur](/operations/#conducteur), [chef de gare](/operations/#chef_gare), [triage](/operations/#chef_triage)
+[conducteur](/reseau/#conducteur), [chef de gare](/reseau/#chef_gare), [triage](/reseau/#chef_triage)
 
 **[Scénario](/operations/#scenario)**  
 [trafic, voyageurs, marchandises](/operations/#scenario)
@@ -58,13 +58,13 @@ C'est parti.
 [programme de génération des scénarios](/operations/#prog_generation)
 
 **[Supervision](/operations/#prog_supervision)**  
-[programme de supervision du jeu](/operations/#prog_supervision)
+[principe](/operations/#prog_supervision), [programme de supervision du jeu](/techno/#yars)
 
 **[Documents](/operations/#documents)**  
 [tableau horaire](/operations/#timetable), [répartition des wagons](/operations/#switchlist)
 
 **[Règlement](reglement)**  
-[règles générales, instructions techniques](reglement)
+[règles générales](/reglement#regles_generales), [instructions techniques](/reglement/#instructions_techniques)
 
 **[Réseaux](/reseau)**  
 [ligne Zéro](/reseau/#zero), [ligne miniZéro](/reseau/#minizero), [ligne 1](/reseau/#un)
@@ -72,10 +72,10 @@ C'est parti.
 **[Photos](/photos)**  
 [chronologie](/photos)
 
-**[Commande digitale](/mrc2000)**  
-[MRC2000](/mrc2000), [DCC-EX/JMRI](/reseau/#dccex)
+**[Commande digitale](/techno)**  
+[DCC-EX](/techno/#dccex), [JMRI](/techno/#jmri), [MRC2000](/mrc2000)
 
-**[Décodeurs](/decodeurs)**  
+**[Décodeurs mobiles](/decodeurs)**  
 [conseils](/decodeurs), [digitalisation 67000](/dcc67000), [66000](/dcc66000), [63000](/dcc63000)
 
 * * *

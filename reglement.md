@@ -131,7 +131,7 @@ Les tâches du responsable de la coulisse sont les suivantes :
 *   expédier les trains (application des horaires) ;
 *   gérer le trafic automatique.
 
-Règles générales
+Règles générales {#regles_generales}
 ----------------
 
 Sauf dans le cas des locomotives haut-le-pied, les trains doivent posséder un fourgon de fin de convoi (assurant la protection arrière du train).
@@ -196,7 +196,7 @@ Chaque scénario indique une vitesse limite qu'il convient de ne pas dépasser.
 Le carburant restant dans la locomotive est indiqué par le simulateur. Chaque conducteur doit ravitailler avant une panne sèche. Le ravitaillement est autorisé à l'arrêt au point de ravitaillement.
 
 
-Instructions techniques
+Instructions techniques {#instructions_techniques}
 -----------------------
 
 ### Arrêt d'urgence

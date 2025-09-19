@@ -43,7 +43,7 @@ Je cherche à utiliser le plus possible de composants prêts à l'emploi afin de
 J'ai décidé d'assembler moi-même une centrale basée sur le logiciel [DCC-EX](https://dcc-ex.com) et la plateforme **Arduino**.
 J'ai également conçu et réalisé le programme Simulateur (YARS).
 
-## Commande digitale DCC
+## Commande digitale DCC {#dccex}
 
 Hardware :
 
@@ -65,7 +65,7 @@ Software :
 
 Pour être compatible avec les anciens décodeurs ARNOLD, il faut utiliser le mode SPEED 28.
 
-## Logiciel de pilotage de réseau ferroviaire
+## Logiciel de pilotage de réseau ferroviaire {#jmri}
 
 Le pilotage avec les commandes de l'API dans le Serial Monitor de l'IDE Arduino n'est pas conçu pour le jeu.
 
@@ -98,7 +98,7 @@ J'utilise JMRI avec la configuration suivante :
     * application mobile open source Engine Driver pour Android
     * application mobile WiThrottleLite pour iOS 
 
-## Simulateur / Logiciel de supervision du Jeu
+## Simulateur / Logiciel de supervision du Jeu {#yars}
 
 Yet Another Railroad Simulator (YARS)
 
