@@ -52,7 +52,10 @@ C'est parti.
 [forme du réseau, choix](/operations/#conception)
 
 **[Pilotage](/operations/#commande)**  
-[commande traditionnelle, digitale](/operations/#commande)
+[commande traditionnelle versus digitale](/operations/#commande)
+
+**[Commande digitale](/techno)** 
+[DCC-EX](/techno/#dccex), [JMRI](/techno/#jmri), [MRC2000](/mrc2000)
 
 **[Génération](/operations/#prog_generation)**  
 [programme de génération des scénarios](/operations/#prog_generation)
@@ -71,9 +74,6 @@ C'est parti.
 
 **[Photos](/photos)**  
 [chronologie](/photos)
-
-**[Commande digitale](/techno)**  
-[DCC-EX](/techno/#dccex), [JMRI](/techno/#jmri), [MRC2000](/mrc2000)
 
 **[Décodeurs mobiles](/decodeurs)**  
 [conseils](/decodeurs), [digitalisation 67000](/dcc67000), [66000](/dcc66000), [63000](/dcc63000)
