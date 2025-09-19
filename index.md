@@ -54,7 +54,7 @@ C'est parti.
 **[Pilotage](/operations/#commande)**  
 [commande traditionnelle versus digitale](/operations/#commande)
 
-**[Commande digitale](/techno)**
+**[Commande digitale](/techno)**  
 [DCC-EX](/techno/#dccex), [JMRI](/techno/#jmri), [MRC2000](/mrc2000)
 
 **[Génération](/operations/#prog_generation)**  
