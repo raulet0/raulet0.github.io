@@ -60,7 +60,7 @@ C'est parti.
 **[Génération](/operations/#prog_generation)**  
 [programme de génération des scénarios](/operations/#prog_generation)
 
-**[Simulation](/operations/#prog_supervision)**  
+**[Simulation](/operations/#supervision)**  
 [principe](/operations/#prog_supervision), [1998](/reseau/#supervision), [2025](/reseau/#yars), [programme](/techno/#yars)
 
 **[Documents](/operations/#documents)**  
