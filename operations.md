@@ -52,7 +52,7 @@ L'idée du contrôle des consommations m'est venue du fameux livre "En train ave
 
 ### Les scores
 
-Un ordinateur, connecté au réseau par le biais de capteurs, surveille les actions des joueurs à l'aide d'un logiciel particulier. Il vérifie que les contraintes d'exploitation sont respectées et attribue un score à chaque joueur. Les joueurs qui ne respectent pas toutes les contraintes obtiennent un score plus faible.
+Un ordinateur, connecté au réseau par le biais de capteurs, surveille les actions des joueurs à l'aide d'un logiciel particulier. Il vérifie que le scénario et les contraintes d'exploitation sont respectés et attribue un score à chaque joueur. Les joueurs qui ne respectent pas toutes les règles obtiennent un score plus faible.
 
 ## Les définitions préalables {#definitions}
 
@@ -143,6 +143,10 @@ Il est possible d'exploiter cette idée avec peu de moyens : le simple aller-ret
 
 Il est également possible, dans le cas d'un réseau en boucle, de faire tourner en permanence un autorail à vitesse réduite, pour simuler un trafic voyageurs minimal à horaires régulier (cette idée m'est venue d'un article intitulé "Continuous running on a point-to-point railroad" dans Model Railroad Planning 1996, un magazine annuel publié par **[Kalmbach Publishing Co.](http://www.kalmbach.com/)** - USA).
 
+### Allongement artificiel des durées
+
+Nos réseaux étant le plus souvent assez comprimés, les distances entre les gares sont très courtes (quelques mètres). En jouant sur le facteur d'accélération du temps, à l'aide d'une horloge accélérée, on simule des [tableaux horaires](/operations/#documents) réalistes (avec un facteur 12, 5 minutes réelles sont considérées comme 1 heure simulée et 1 mètre réel représente 1 kilomètre simulé), mais il n'empêche que les durées réelles des trajets, celles qui permettent aux opérateurs de préparer les tâches suivantes, sont courtes : 10 mètres réels de voie représentent 10 kilomètres parcourus approximativement en 30 secondes réelles à une vitesse simulée de 60 kilomètres / heure. Ca ne laisse pas beaucoup de temps pour basculer les aiguilles, dégager les voies, se préparer aux mouvements suivants, le tout sans se tromper !
+
 ## La conception du réseau pour le jeu {#conception}
 
 La réalisation d'un réseau où l'on veut simuler des opérations réalistes nécessite une conception attentive de son plan de voies, pour permettre la mise en oeuvre des concepts clés d'exploitation.
@@ -174,19 +178,6 @@ Par ailleurs, un pont tournant nécessite moins d'espace qu'un triangle de voies
 
 Une zone agissant comme la coulisse d'un théatre est nécessaire pour préparer et garer les trains.
 Le garage des trains en attente dans une gare cachée inaccessible interdit de les retourner et d'en modifier la composition. C'est une des raisons qui justifie une coulisse séparée du réseau mais ouverte pour qu'un opérateur puisse y intervenir (avec une 0-5-0 !).
-
-### Allongement artificiel des durées
-
-Nos réseaux étant le plus souvent assez comprimés, les distances entre les gares sont très courtes (quelques mètres). En jouant sur le facteur d'accélération du temps, à l'aide d'une horloge accélérée, on simule des [tableaux horaires](/operations/#documents) réalistes (avec un facteur 12, 5 minutes réelles sont considérées comme 1 heure simulée et 1 mètre réel représente 1 kilomètre simulé), mais il n'empêche que les durées réelles des trajets, celles qui permettent aux opérateurs de préparer les tâches suivantes, sont courtes : 10 mètres réels de voie représentent 10 kilomètres parcourus approximativement en 30 secondes réelles à une vitesse simulée de 60 kilomètres / heure. Ca ne laisse pas beaucoup de temps pour basculer les aiguilles, dégager les voies, se préparer aux mouvements suivants, le tout sans se tromper !
-
-L'utilisation d'une spirale permet de franchir des dénivelés importants et permet d'allonger la durée d'un trajet entre deux points : cela laisse un peu de temps aux opérateurs.
-
-### Organisation du jeu
-
-*   nombre d'opérateurs et rôles associés ?
-*   degré d'assistance ou d'automatisme : contrôle manuel ou automatique des aiguilles, des cantons, des signaux ?
-*   nombre de circulations simultanées ?
-*   formalisation du jeu : quels formulaires, quel système de numérotation des véhicules, gestion des wagons ouverts pleins ou vides ?
 
 ## La commande du réseau {#commande}
 
