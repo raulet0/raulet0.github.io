@@ -128,11 +128,6 @@ La forme du scénario dépend du type de jeu souhaité :
 
 Le premier cas impose uniquement des tâches d'exécution. Le second cas est proche de la réalité, il nécessite des tâches de planification, qui s'imposent effectivement aux sociétés ferroviaires.
 
-Pour mon réseau, je souhaite que le trafic se décompose ainsi :
-
-*   trafic majoritaire : marchandises légères soumises au triage ;
-*   trafic minoritaire : voyageurs à horaires fixes.
-
 ### La simulation du trafic minimal
 
 Lorsque peu de joueurs sont présents, voire dans le cas extrême d'un seul joueur, il est intéressant de simuler un trafic minimal. Il peut être simulé par un ordinateur de commande qui assure alors les mouvements à la manière d'un joueur, ou même de plusieurs.
@@ -145,7 +140,7 @@ Il est également possible, dans le cas d'un réseau en boucle, de faire tourner
 
 ### Allongement artificiel des durées
 
-Nos réseaux étant le plus souvent assez comprimés, les distances entre les gares sont très courtes (quelques mètres). En jouant sur le facteur d'accélération du temps, à l'aide d'une horloge accélérée, on simule des [tableaux horaires](/operations/#documents) réalistes (avec un facteur 12, 5 minutes réelles sont considérées comme 1 heure simulée et 1 mètre réel représente 1 kilomètre simulé), mais il n'empêche que les durées réelles des trajets, celles qui permettent aux opérateurs de préparer les tâches suivantes, sont courtes : 10 mètres réels de voie représentent 10 kilomètres parcourus approximativement en 30 secondes réelles à une vitesse simulée de 60 kilomètres / heure. Ca ne laisse pas beaucoup de temps pour basculer les aiguilles, dégager les voies, se préparer aux mouvements suivants, le tout sans se tromper !
+Nos réseaux étant le plus souvent assez comprimés, les distances entre les gares sont très courtes (quelques mètres). En jouant sur le facteur d'accélération du temps, à l'aide d'une horloge accélérée, on simule des [tableaux horaires](/operations/#documents) réalistes (avec un facteur 12 : 5 minutes réelles sont considérées comme 1 heure simulée et 1 mètre réel représente 1 kilomètre simulé), mais il n'empêche que les durées réelles des trajets, celles qui permettent aux opérateurs de préparer les tâches suivantes, sont courtes : 10 mètres réels de voie représentent 10 kilomètres parcourus approximativement en 30 secondes réelles à une vitesse simulée de 60 kilomètres / heure. Ca ne laisse pas beaucoup de temps pour basculer les aiguilles, dégager les voies, se préparer aux mouvements suivants, le tout sans se tromper !
 
 ## La conception du réseau pour le jeu {#conception}
 
