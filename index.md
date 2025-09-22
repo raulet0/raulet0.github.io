@@ -12,7 +12,7 @@ header:
 author_profile: false
 ---
 
-Vous êtes fascinés comme moi par les jeux de simulation et par le monde captivant des réseaux de trains miniatures ? Alors vous êtes au bon endroit ! 
+Vous êtes fascinés comme moi par les jeux de simulation et par le monde captivant des trains miniatures ? Alors vous êtes au bon endroit ! 
 
 [![Logo (4 Ko)](../images/logo6.png)](/reseau)
 
@@ -22,8 +22,8 @@ Imaginez : des trains qui évoluent ensemble au sein d'une chorégraphie subtile
 L'intégration des micro-contrôleurs, de l'informatique, des capteurs intelligents, des normes digitales (DCC) et de l'Internet des Objets (IoT) dans le modélisme ferroviaire, tout cela rassemblé ouvre une nouvelle dimension d'interaction avec nos trains. Les modélistes peuvent désormais piloter aisément leur train avec leur Smartphone, surveiller en temps réel la performance de leurs modèles, ajuster les paramètres de fonctionnement et même intégrer des scénarios automatisés. Votre réseau n'est plus statique, il réagit à vos commandes et à l'environnement !
 
 ## Mon projet : Le jeu grandeur nature sur rails miniatures
-Mon objectif est de créer une activité de jeu moderne, amusante et digitale, accessible aux petits comme aux grands, autour d'un réseau ferroviaire miniature réel. Que votre réseau soit petit ou vaste, en boucle ou en ligne, mon jeu s'adapte à de multiples configurations existantes.
-Le principe ? Les joueurs pilotent leur train à l'aide de leur smartphone, aux commandes d'une locomotive sonorisée. Ils doivent dérouler un scénario choisi parmi plusieurs, qui les invite à opérer une locomotive et ses wagons sur le réseau. L'objectif est de livrer et/ou récupérer des wagons aux différents lieux de livraison prévus (ex. les "entreprises"), en respectant les horaires (passage en gare pour les trains de voyageurs ou dans les entreprises pour les trains de marchandises). Il faut également respecter les règles de conduite ferroviaire : signaux, vitesses maximales, avertissements sonores, ravitaillement des locomotives, etc.
+Mon objectif est de créer une activité de jeu moderne, amusante et digitale, accessible aux petits comme aux grands, autour d'un réseau ferroviaire miniature réel. Que votre réseau soit petit ou vaste, en boucle ou en ligne, mon idée s'adapte à de multiples configurations existantes.
+Le principe ? Les joueurs pilotent leur train à l'aide de leur smartphone, aux commandes d'une locomotive sonorisée. Ils doivent dérouler un scénario qui les invite à opérer une locomotive et ses wagons sur le réseau. L'objectif est de livrer et/ou récupérer des wagons aux différents lieux de livraison prévus (ex. les "entreprises"), en respectant les horaires (passage en gare pour les trains de voyageurs ou dans les entreprises pour les trains de marchandises). Il faut également respecter les règles de conduite ferroviaire : signaux, vitesses maximales, avertissements sonores, ravitaillement des locomotives, etc.
 En parallèle, un logiciel de jeu simule en accéléré le déroulement d'une grille horaire inspirée de la réalité. Il surveille toutes les actions des joueurs et affiche un rapport détaillé au fur et à mesure. Une session de jeu peut durer de 15 minutes à 2 heures, ce qui simule 24 heures réelles. Prêt à devenir un véritable chef de gare ?
 
 ## Un pont entre deux mondes : réel et virtuel
