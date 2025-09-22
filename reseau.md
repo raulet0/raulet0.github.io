@@ -194,8 +194,9 @@ A ce stade, il faut ajouter ensuite d'autres équipements sur le réseau (signau
 
 Un plateau de 1m20 x 0m85 avec un simple ovale et une seule voie de garage qui reprend et améliore toutes les idées du réseau de 2000.
 Il est facilement déplaçable pour jouer n'importe où et faire des démonstrations.
-Les mêmes scénarios de jeu précédents sont utilisables.
-La généralisation du DCC permet toutefois de nombreuses améliorations&nbsp;!
+Une moitié du ovale en façade représente la gare, l'autre moitié représente virtuellement la coulisse et l'accès à une usine.
+Les mêmes scénarios de jeu précédents sont utilisables avec des trains courts de 3 wagons.
+La généralisation du DCC et quelques astuces permises par le programme de supervision offrent un certain nombre de possibilités de jeu même dans cet espace réduit&nbsp;!
 
 
 ![La ligne miniZéro en 2025](../photos/minizero01.jpeg)
