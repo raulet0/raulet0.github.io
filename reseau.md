@@ -255,7 +255,8 @@ Les règles du jeu doivent être respectées, le score est calculé ainsi (versi
     * Klaxon (F2) en entrant dans la gare : +10 points à chaque coup de klaxon.
 * **Carburant** : Une panne de fuel est éliminatoire et le scénario est automatiquement terminé (la locomotive s'arrête toute seule). En l'absence d'un point de ravitaillement disponible (dépôt de locomotives, station fuel), on peut simplifier la règle : la locomotive doit être à l'arrêt en gare (le programme ne permet pas de ravitailler en roulant et  l'arrêt en pleine ligne est interdit).
 
-Mon meilleur score est 230 points avec le scénario n°1 allant de Gare du Lion à Melan.
+Mon meilleur score est 230 points avec mon [scénario n°1](/operations/#documents) allant de Gare du Lion à Melan
+(naturellement, la formule de calcul étant différente, ce score n'est pas comparable à la version précédente).
 
 ## La ligne Un (projet) {#un}
 
