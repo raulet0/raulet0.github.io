@@ -36,6 +36,8 @@ En 2022, j'ai décidé de poursuivre quitte à utiliser un réseau beaucoup plus
 
 Mon **réseau imaginaire** représente une ligne SNCF reliant la capitale aux villes de la banlieue dans la partie SUD-EST dans les années 1960-1970, d'une longueur approximative de 150 kilomètres.
 
+[Cliquez ici pour voir des photos de ce réseau](/photos/)
+
 Mon réseau traverse quelques départements et une seule gare est effectivement reproduite, mais...  
 La partie reproduite est une ligne à voie unique. Il aurait été plus crédible que ce soit une ligne double mais pour des raisons financières, d'espace et de temps, j'ai préféré me limiter pour le moment à une voie unique.  
 Il n'y a pas de caténaire, donc pas de locomotive électrique.  
