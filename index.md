@@ -43,7 +43,7 @@ C'est parti.
 [sites, bâtiments, trains](/operations/#definitions)
 
 **[Rôles](/operations/#roles)**  
-[conducteur](/reseau/#conducteur), [chef de gare](/reseau/#chef_gare), [triage](/reseau/#chef_triage)
+[conducteur](/reglement/#conducteur), [chef de gare](/reglement/#chef_gare), [triage](/reglement/#chef_triage)
 
 **[Scénario](/operations/#scenario)**  
 [trafic, voyageurs, marchandises](/operations/#scenario)
