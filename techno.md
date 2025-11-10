@@ -84,8 +84,8 @@ JMRI gère notamment ici pour mes besoins :
 * les itinéraires des trains et la réservation des cantons
 * les mouvements de wagons
 
-Des capteurs tels que des ILS ou des détecteurs de présence par consommation de courant peuvent être reliés à une carte Arduino (j'utilise des détecteurs 5556 de [Stock87](https://www.stock87.fr)). Cette carte Arduino peut être la même que celle qui supporte le programme DCC-EX EX-CommandStation car cette centrale de commande intègre la capacité de gérer des capteurs (sensors).
-Pour des réseaux qui le nécessitent, la librairie arduinoCMRI permet de réaliser un noeud C/MRI SMINI avec une carte Arduino dédiée.
+Des capteurs tels que des ILS ou des détecteurs de présence par consommation de courant peuvent être reliés à une carte Arduino (j'utilise des détecteurs 5556 de [Stock87](https://www.stock87.fr)). Pour un petit réseau, cette carte Arduino peut être la même que celle qui supporte le programme DCC-EX EX-CommandStation car cette centrale de commande intègre la capacité de gérer des capteurs (sensors) qui peuvent provenir des ports d'entrée disponibles de cette carte.
+Pour des réseaux plus importants et qui le nécessitent, la librairie arduinoCMRI permet de réaliser un noeud C/MRI SMINI avec une carte Arduino dédiée.
 Reliée au PC avec un cable USB, JMRI peut ainsi réagir à des changements d'état de boutons et détecteurs et peut comme de nombreux logiciels de cette catégorie actionner par exemple des LED, des signaux lumineux et des moteurs d'aiguillage.
 
 J'utilise JMRI avec la configuration suivante :
@@ -104,15 +104,19 @@ Yet Another Railroad Simulator (YARS)
 
 Sans rien perdre des concepts de la version historique de 1998 (présentée dans la rubrique dédiée aux [Réseaux](/reseau.md)), j'ai développé ce nouveau programme de supervision du jeu (appelé désormais YARS) fondé sur les technologies numériques les plus récentes. La version actuelle (mars 2025) est à considérer comme un premier prototype opérationnel, qui doit évidemment poursuivre son évolution.
 
-![Copie d'écran du programme de supervision avec JMRI](../images/yars.png)Yet Another Railroad Simulator (YARS)
+![Copie d'écran du programme de supervision avec JMRI](../images/yars.png)Démonstrateur Yet Another Railroad Simulator (YARS)
 
 Actuellement, le programme YARS s'interface avec le logiciel de pilotage JMRI (Java Model Railroad Interface) de manière à le compléter fonctionnellement.
+
 JMRI offre l'avantage de s'interfacer lui-même avec les principales centrales DCC du marché, ainsi que les protocoles de communication standards et peut ainsi constituer une véritable plateforme d'intégration. 
 De plus, il offre également à son niveau une interface et un protocole de communication permettant le pilotage des locomotives et accessoires avec divers moyens de télécommande et notamment des applications sur smartphones et tablettes.
-En utilisant cette interface, j'ai développé facilement mon propre module au sein de YARS pour commander les locomotives dans les situations de jeu ou cela est utile (par exemple simuler une panne).
+
+En utilisant cette interface de JMRI, j'ai développé facilement mon propre module au sein de YARS pour récupérer les données de vitesse et de direction des locomotives et pour les piloter dans les situations de jeu ou cela est utile (par exemple pour les stopper pour simuler une panne de carburant).
+
+A l'aide de ce module, j'ai également réalisé un outil de calibration des locomotives me permettant de générer graphiquement les courbes de vitesse en fonction des crans DCC. Cela permet de mieux comprendre leur comportement et donne des indications bien utiles lorsqu'il est nécessaire d'ajuster les CV qui contrôlent les vitesses (notamment la Speed Table).
 
 En complément, JMRI affiche facilement l'indispensable horloge accélérée ainsi qu'un synoptique et/ou un tableau de contrôle du réseau.
-YARS disposant de son propre serveur web intégré, il peut afficher en temps-réel les informations utiles au déroulement du jeu dans un navigateur standard, sur un voire plusieurs écrans simultanément.
+YARS disposant de son propre serveur web intégré, il peut afficher en temps-réel les informations utiles au déroulement du jeu dans un navigateur standard sur n'importe quel device connecté en WiFi au réseau local (PC, tablette, etc.), sur un ou plusieurs écrans simultanément.
 
 Consultez ces pages qui présentent davantage de détails :
 * Hardware
