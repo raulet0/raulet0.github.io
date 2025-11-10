@@ -20,7 +20,7 @@ sidebar:
 
 *   **[LR PRESSE](https://trains.lrpresse.com)** - Revues Françaises de modélisme (Loco-Revue, Voie Libre, Clés pour le train miniature, Ferrovissime), Maquettes en carton
 *   **[RAIL MINIATURE FLASH](https://www.rmf-magazine.com)** - Revue Française de modélisme
-*   **[MODEL RAILROADER](https://www.kalmbach.com)** - Revue Américaine de modélisme
+*   **[MODEL RAILROADER](https://www.trains.com/mrr)** - Revue Américaine de modélisme
 *   **[RAILWAY MODELLER](https://peco-uk.com/pages/railway-modeller)** - Revue de modélisme du Royaume-Uni
 
 
